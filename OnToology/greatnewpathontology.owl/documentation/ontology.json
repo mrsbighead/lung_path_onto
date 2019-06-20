@@ -1,0 +1,3134 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#regional_lymph_nodes_number_of_lymph_nodes_examined"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#regional_lymph_nodes_number_of_lymph_nodes_involved"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#TNM_descriptors_m"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#TNM_descriptors_r"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#TNM_descriptors_y"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality_left"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality_not_specified"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality_right"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_bilobectomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_completion_lobectomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_lobectomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_major_airway_resection"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_not_specified"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_other"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_pneumonectomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_segmentectomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_sleeve_lobectomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_wedge_resection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_intermedius_bronchus"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_lobar_bronchus"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_lower_lobe"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_main_bronchus"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_middle_lobe"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_not_specified"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_other"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_upper_lobe"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_cannot_be_determined"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_diffuse_pneumonic_type_adenocarcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_single_tumor"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_synchronous_primary_tumors_in_different_lobes"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_synchronous_primary_tumors_in_same_lobe"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_cannot_be_assessed"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_involved_by_carcinoma_in_situ"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_involved_by_invasive_carcinoma"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_not_applicable"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_uninvolved_by_carcinoma_in_situ"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_uninvolved_by_invasive_carcinoma"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_adjacent_structure_present_and_involved"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_cannot_be_assessed"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_no_adjacent_structures_present"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#extranodal_extension_cannot_be_determined"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#extranodal_extension_not_identified"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#extranodal_extension_present"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_cannot_be_determined"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_not_identified"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#other_attached_tissue_margin_cannot_be_assessed"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#other_attached_tissue_margin_involved_by_invasive_carcinoma"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#other_attached_tissue_margin_uninvolved_by_invasive_carcinoma"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_cannot_be_assessed"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_involved_by_carcinoma_in_situ"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_involved_by_invasive_carcinoma"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_not_applicable"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_uninvolved_by_carcinoma_in_situ"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_uninvolved_by_invasive_carcinoma"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#invasive_tumor_size_invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#total_invasive_and_lepidic_size_greatest_dimension"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_additional_dimension_1"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_additional_dimension_2"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_cannot_be_determined"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_greatest_dimension"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN0"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN1"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN2"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN3"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pNX"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_PT1"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT0"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT2"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT3"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT4"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pTX"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pTis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_cannot_be_determined"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_greater_than_10_percent_residual_viable_tumor"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_cannot_be_assessed"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_involved_by_carcinoma"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_not_applicable"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_uninvolved_by_carcinoma"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://id.who.int/icd/entity/1418562110#visceral_pleura_invasion_cannot_be_determined"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#visceral_pleura_invasion_not_identified"
+    }, {
+      "@id" : "http://id.who.int/icd/entity/1418562110#visceral_pleura_invasion_present"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G1_well_differentiated"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G2_moderately_differentiated"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G3_poorly_differentiated"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G4_undifferentiated"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#GX_cannot_be_assessed"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade_not_applicable"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_NUT_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenocarcinoma_in_situ_mucinous"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenocarcinoma_in_situ_nonmucinous"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenoid_cystic_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenosquamous_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_atypical_carcinoid_tumor"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_carcinoma_type_cannot_be_determined"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_carcinosarcoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_colloid_adenocarcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_combined_large_cell_neuroendocrine_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_combined_small_cell_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_enteric_adenocarcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_epithelial_myoepithelial_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_fetal_adenocarcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_giant_cell_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_acinar_predominant"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_lepidic_predominant"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_micropapillary_predominant"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_papillary_predominant"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_predominant_subtype_cannot_be_determined"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_solid_predominant"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_mucinous_adenocarcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_squamous_cell_carcinoma_basaloid"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_squamous_cell_carcinoma_keratinizing"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_squamous_cell_carcinoma_non_keratinizing"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_large_cell_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_large_cell_neuroendocrine_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_lymphoepithelioma_like_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_minimally_invasive_adenocarcinoma_mucinous"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_minimally_invasive_adenocarcinoma_nonmucinous"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_mixed_invasive_mucinous_and_nonmucinous_adenocarcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_mucoepidermoid_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_non_small_cell_carcinoma_subtype_cannot_be_determined"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_other_histologic_type_not_listed"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_pleomorphic_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_pulmonary_blastoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_small_cell_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_spindle_cell_carcinoma"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_squamous_cell_carcinoma_in_situ"
+    }, {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_typical_carcinoid_tumor"
+    } ]
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#TNM_descriptors_m",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Multiple primary tumors"
+  }, {
+    "@language" : "en",
+    "@value" : "Post treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "m (multiple primary tumors)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_TNM_descriptors"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#TNM_descriptors_r",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "y (posttreatment)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_TNM_descriptors"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#TNM_descriptors_y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Recurrent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "y (recurrent)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_TNM_descriptors"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_atypical_adenomatous_hyperplasia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XH5QL3 Atypical adenomatous hyperplasia"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/1108670163"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atypical adenomatous hyperplasia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_diffuse_neuroendocrine_hyperplasia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0022986"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A very rare condition characterized by generalized proliferation of pulmonary neuroendocrine cells. It manifests as progressive cough and dyspnea. It is considered a precursor for pulmonary carcinoid tumor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "diffuse neuroendocrine hyperplasia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_emphysema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#loinc" : [ {
+    "@language" : "en",
+    "@value" : "45670-7"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/1948124976"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "ICD10:J43"
+  }, {
+    "@language" : "en",
+    "@value" : "MONDO:0004849"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "emphysema, pulmonary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Emphysema is defined by abnormal and permanent enlargement of the airspaces that are distal to the terminal bronchioles. This is accompanied by destruction of the airspace walls, without obvious fibrosis (i.e. there is no fibrosis visible to the naked eye). Emphysema can exist in individuals who do not have airflow obstruction; however, it is more common among patients who have moderate or severe airflow obstruction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emphysema"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_inflammation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/mondo#closeMatch" : [ {
+    "@language" : "en",
+    "@value" : "CA40.Z Pneumonia, organism unspecified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specify"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inflammation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_metaplasia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specify"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "metaplasia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_none_identified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "none identified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "other"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#additional_pathological_findings_squamous_dysplasia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "squamous dysplasia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#ancillary_studies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "For reporting cancer biomarker testing results, the CAP Lung Biomarker Template should be used. Pending biomarker studies should be listed in the Comments section of this report."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ancillary studies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bilomectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_cannot_be_assessed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_involved_by_carcinoma_in_situ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by carcinoma in situ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_involved_by_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_not_applicable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not applicable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_uninvolved_by_carcinoma_in_situ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by carcinoma in situ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchial_margins_uninvolved_by_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchus_intermedius",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#bronchus_lobar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#carcinoid_tumors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.4 Carcinoid or other malignant neuroendocrine neoplasms of bronchus or lung"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/1315163160"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0006041"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A neuroendocrine neoplasm that arises from the lung. It is characterized by the presence of uniform polygonal cells with small or moderate amount of cytoplasm and inconspicuous nucleoli. The cells are usually arranged in organoid and trabecular patterns. It is classified as typical or atypical carcinoid tumor based on the number of mitotic figures and the absence or presence of necrosis. Atypical carcinoid tumors have a worse prognosis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carcinoid tumors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_neuroendocrine_tumors"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#completion_lobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#ct_guided_biopsy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_biopsy" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_adjacent_structure_present_and_involved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adjacent structures present but not involved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#direct_invasion_of_adjacent_structures"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specify sructures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adjacent structures present and involved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#direct_invasion_of_adjacent_structures"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_cannot_be_assessed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "direct invasion of adjacent structures cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#direct_invasion_of_adjacent_structures"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#direct_invasion_of_adjacent_structures_no_adjacent_structures_present",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Explain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#direct_invasion_of_adjacent_structures"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#experimental_procedure_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#extranodal_extension_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#extranodal_extensions"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#extranodal_extension_not_identified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not identified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#extranodal_extensions"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#extranodal_extension_present",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "present"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#extranodal_extensions"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8140/3"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/1418562110"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0005061"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "non-small cell lung adenocarcinoma"
+  }, {
+    "@language" : "en",
+    "@value" : "nonsmall cell adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A carcinoma that arises from the lung and is characterized by the presence of malignant glandular epithelial cells. There is a male predilection with a male to female ratio of 2:1. Usually lung adenocarcinoma is asymptomatic and is identified through screening studies or as an incidental radiologic finding. If clinical symptoms are present they include shortness of breath, cough, hemoptysis, chest pain, and fever. Tobacco smoke is a known risk factor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_neuroendocrine_tumors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.4 Carcinoid or other malignant neuroendocrine neoplasms of bronchus or lung"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0005454"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "neuroendocrine neoplasm of the lung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A low, intermediate, or high grade malignant neoplasm with neuroendocrine differentiation that arises from the lung. This category includes typical carcinoid tumor, atypical carcinoid tumor, small cell carcinoma, large cell neuroendocrine carcinoma, and combined carcinoma."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "neuroendocrine tumors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_salivary_gland-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.Y Other specified malignant neoplasms of bronchus or lung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "salivary gland type tumors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_sarcomatoid_carcinomas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.Y Other specified malignant neoplasms of bronchus or lung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sarcomatoid carcinomas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_squamous_cell_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.2 Squamous cell carcinoma of bronchus or lung"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8070/3"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/2045832550"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0056806"
+  }, {
+    "@language" : "en",
+    "@value" : "NCIT:C133254"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "non-small cell lung squamous cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A carcinoma arising from malignant squamous bronchial epithelial cells and characterized by the presence of keratinization and/or intercellular bridges. Cigarette smoking and arsenic exposure are strongly associated with squamous cell lung carcinoma."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "squamous cell carcinoma (SqCC)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#icd11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/mondo#exactMatch"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#icdo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/mondo#exactMatch"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#invasive_tumor_size_invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Based on data showing prognosis correlates with invasive size in nonmucinous adenocarcinomas with lepidic and invasive components, the American Joint Committee on Cancer (AJCC) has adopted a rule that for nonmucinous adenocarcinomas with a lepidic component, only the size of the invasive component is used to assign T category.1-4 This rule aligns with the recommendation previously set forth by the Union for International Cancer Control (UICC) of using invasive size for T descriptor size.5 This rule does not apply to other histologic types of lung cancer, including invasive mucinous lung adenocarcinoma. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Invasive Tumor Size (applies only to invasive nonmucinous adenocarcinoma with a lepidic component). https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive tumor size (only if invasive nonmucinous adenocarcinoma with a lepidic component)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#loinc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/mondo#exactMatch"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lower_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#lymphovascular_invasionn"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_not_identified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not identified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#lymphovascular_invasionn"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "present"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#lymphovascular_invasionn"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present_arterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "arterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present_lymphatic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lymphatic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present_venous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "venous"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#lymphovascular_invasion_present"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#main_bronchus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#major_airway_resection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#margins_all_margins_uninvolved_by_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specify margins examined and distance of the tumor to the closest margin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "all margins uninvolved by carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#margins"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#margins_bronchial_margin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bronchial margin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#margins"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#margins_other_attached_tissue_margin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "other attached tissue margin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "other"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#margins"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "parenchimal margin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#margins"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#margins_vascular_margin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vascular margin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#margins"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#middle_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#other_attached_tissue_margin_cannot_be_assessed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_other_attached_tissue_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#other_attached_tissue_margin_involved_by_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_other_attached_tissue_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#other_attached_tissue_margin_uninvolved_by_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_other_attached_tissue_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#other_site_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_cannot_be_assessed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_involved_by_carcinoma_in_situ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by carcinoma in situ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_involved_by_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by lepidic component of invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_not_applicable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not applicable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_uninvolved_by_carcinoma_in_situ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by carcinoma in situ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_uninvolved_by_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by lepidic component of invasive carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_parenchimal_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_TNM_descriptors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "descriptors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#pathologic_stage_classification"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Required only if confirmed pathologically in this case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "distant metastasis (pM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#pathologic_stage_classification"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pM_pM1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Distant metastasis present."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pM1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pM"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "regional lymph node (pN)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#pathologic_stage_classification"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pN0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes, and intrapulmonary nodes, including involvement by direct extension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pN1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pN2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pN3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node(s)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pN3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN_pNX",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Regional lymph nodes cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pNX"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pN"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "primary tumor (pT)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#pathologic_stage_classification"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_PT1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor ≤3 cm in greatest dimension, surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus (ie, not in the main bronchus)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "No evidence of primary tumor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor >3 cm but ≤5 cm or having any of the following features:\n    • Involves the main bronchus regardless of distance to the carina, but without involvement of the carina; \n    • Invades visceral pleura (PL1 or PL2); \n    • Associated with atelectasis or obstructive pneumonitis that extends to the hilar region, involving part or all of the lung."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor >5 cm but ≤7 cm in greatest dimension; or directly invading any of the following: parietal pleura (PL3), chest wall (including superior sulcus tumors), phrenic nerve, parietal pericardium; or separate tumor nodule(s) in the same lobe as the primary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pT4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor >7 cm in greatest dimension; or tumor of any size invading one or more of the following: diaphragm, mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body or carina; or separate tumor nodule(s) in an ipsilateral lobe different from that of the primary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pTX",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Primary tumor cannot be assessed, or tumor proven by presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pTX"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT_pTis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Squamous cell carcinoma in situ (SCIS) or adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤3 cm in greatest dimension."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pTis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#pathologic_stage_classification_pT"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#pneumectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#regional_lymph_nodes_no_lymph_nodes_submitted_or_found",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "no lymph nodes submitted or found"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#regional_lymph_nodes"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#regional_lymph_nodes_number_of_lymph_nodes_examined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of lymphnodes examined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#regional_lymph_nodes"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#regional_lymph_nodes_number_of_lymph_nodes_involved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of lymph nodes involved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#regional_lymph_nodes"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#resection_not_specified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#segmentectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#site_not_specified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#real"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#sleeve_lobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#total_invasive_and_lepidic_size_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor size cannot be determined."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_invasive_and_lepidic_size_greatest_dimension"
+  }, {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1"
+  }, {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#total_invasive_and_lepidic_size_greatest_dimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Greatest measured dimension of tumor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "greatest measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Based on data showing prognosis correlates with invasive size in nonmucinous adenocarcinomas with lepidic and invasive components, the American Joint Committee on Cancer (AJCC) has adopted a rule that for nonmucinous adenocarcinomas with a lepidic component, only the size of the invasive component is used to assign T category.1-4 This rule aligns with the recommendation previously set forth by the Union for International Cancer Control (UICC) of using invasive size for T descriptor size.5 This rule does not apply to other histologic types of lung cancer, including invasive mucinous lung adenocarcinoma. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Total Tumor Size Inclusive of Invasive and Lepidic Components (applies only to invasive nonmucinous adenocarcinoma with a lepidic component). https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "total tumor size (only if invasive nonmucinous adenocarcinoma with a lepidic component)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_size"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Optional data element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "additional dimension 1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Optional data element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "additional dimension 2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "treatment effect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_greater_than_10_percent_residual_viable_tumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "greater than 10 percent residual viable tumor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "less than or equal to 10 percent residual viable tumor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect_no_known_presurgical_therapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "no known presurgical therapy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#treatment_effect"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#ultrasound_guided_biopsy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_biopsy" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#upper_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_cannot_be_assessed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_vascular_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_involved_by_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "involved by carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_vascular_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_not_applicable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not applicable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_vascular_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#vascular_margin_uninvolved_by_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uninvolved by carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#margins_vascular_margin"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#visceral_pleura_invasion_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#visceral_pleura_invasion"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#visceral_pleura_invasion_not_identified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not identified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#visceral_pleura_invasion"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#visceral_pleura_invasion_present",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "present"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#visceral_pleura_invasion"
+  } ]
+}, {
+  "@id" : "http://id.who.int/icd/entity/1418562110#wedge_resection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/mondo#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/mondo#exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ontology based on the College of American Pathologists' protocol for examination of specimen from patients with primary non-small cell carcinoma, small cell carcinoma or carcinoid tumor of the lung."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G1_well_differentiated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XS56 Grade I"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/2023608436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade 1: well differentiated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G2_moderately_differentiated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XS58 Grade II"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/2001687278"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade 2: moderately differentiated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G3_poorly_differentiated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XS7Z Grade III"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/222322191"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade 3: poorly differentiated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#G4_undifferentiated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XS7M Grade IV"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/841991559"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade 4: undifferentiated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#GX_cannot_be_assessed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade X: cannot be assessed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#additional_pathologic_findings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Additional pathologic findings.  Select all that apply."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "additional pathologic findings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#loinc" : [ {
+    "@language" : "en",
+    "@value" : "22637-3"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://purl.bioontology.org/ontology/LNC/22637-3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "Pathology report final diagnosis Narrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "”Protocol for the Examination of Specimens From PatientsWith Primary Non-Small Cell Carcinoma, Small Cell Carcinoma, or Carcinoid Tumor ofthe Lung”, version Lung 4.0.0.3. Source: CAP Cancer Protocol Template. https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cap lung specimen protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#direct_invasion_of_adjacent_structures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "direct invasion of adjacent structures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#extranodal_extensions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "extranodal extension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/591767327"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A tiered grading scheme for lung cancer has been put forth by the AJCC.1 However, its reproducibility and prognostic significance have not been rigorously tested, and therefore histopathologic grade is designated as an optional reporting element. https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "histologic grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade_not_applicable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not applicable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_grade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "For consistency in reporting, the histologic classification published by the World Health Organization (WHO) for tumors of the lung, including carcinoids, is recommended.8 Although acceptable in small biopsies, a designation of non-small cell lung carcinoma, not otherwise specified (NSCLC, NOS), is not acceptable in resection specimens."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "histologic type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_NUT_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8023/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Carcinomas associated with chromosomal rearrangement in the NUT gene are called NUT carcinomas. These are poorly differentiated carcinomas genetically defined by the presence of NUT gene rearrangement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NUT carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenocarcinoma_in_situ_mucinous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XH6BU6 Mucinous adenocarcinoma in situ of the lung"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8253/2"
+  } ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://id.who.int/icd/entity/276010586"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mucinous adenocarcinoma in situ of the lung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenocarcinoma_in_situ_nonmucinous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XH1FR9 Non-mucinous adenocarcinoma in situ of the lung"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8250/2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adenocarcinoma in situ (AIS) nonmucinous"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenoid_cystic_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XH4302 Adenoid cystic carcinoma"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8200/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0003181"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A rare usually indolent lung carcinoma characterized by a cribiform and tubular pattern and the presence of glandular epithelial cells. Clinical symptoms include shortness of breath, cough, wheeze, hemopytsis and chest pain."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adenoid cystic carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_salivary_gland-type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_adenosquamous_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8560/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0004973"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An aggressive carcinoma with a poor prognosis characterized by a presence of both malignant squamous cells and glandular cells."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adenosquamous carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_atypical_carcinoid_tumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8249/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atypical carcinoid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#carcinoid_tumors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_carcinoma_type_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carcinoma (type cannot be determined)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_carcinosarcoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8980/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carcinosarcoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_sarcomatoid_carcinomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_colloid_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8480/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0027772"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A morphologic variant of lung adenocarcinoma characterized by the presence of mucin pools containing islands of well differentiated adenocarcinoma cells."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "colloid adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_combined_large_cell_neuroendocrine_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8013/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "combined large cell neuroendocrine carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_large_cell_neuroendocrine_carcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_combined_small_cell_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8045/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "combined small cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_small_cell_carcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_enteric_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8144/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "enteric adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_epithelial_myoepithelial_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8562/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "epithelial-myoepithelial carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_salivary_gland-type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_fetal_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8333/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0017292"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Well-differentiated fetal adenocarcinoma (WDFA) of the lung is a rare, primary, low-grade, bronchopulmonary neoplasm characterized by a well-circumscribed, usually large, pulmonary mass that is histologically composed of glycogen-rich neoplastic glands and tubules that resemble fetal lungs at 10 to 16 weeks of gestation and benign adjacent stroma. It typically presents with chest pain, cough, dyspnea, hemoptysis and/or generalized, non-specific symptoms, such as night sweats, lethargy, poor appetite and weight loss."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fetal adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_giant_cell_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8031/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "giant cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_sarcomatoid_carcinomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_acinar_predominant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "XH0F68 Acinar adenocarcinoma of the lung"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8551/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0003892"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A morphologic variant of lung adenocarcinoma characterized by the presence of acinar structures composed of columnar or cuboidal cells. (NCI05)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma acinar predominant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_lepidic_predominant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8250/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma lepidic predominant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_micropapillary_predominant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8265/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma micropapillary predominant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_papillary_predominant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8260/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0006049"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A morphologic variant of lung adenocarcinoma characterized by the presence of papillary structures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma papillary predominant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_predominant_subtype_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma predominant subtype cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_adenocarcinoma_solid_predominant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8230/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma solid predominant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_mucinous_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8253/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive mucinous adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_squamous_cell_carcinoma_basaloid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8083/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0003486"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A squamous cell carcinoma characterized by the presence of cells with hyperchromatic nuclei, scant amount of cytoplasm, and peripheral nuclear palisading"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "basaloid squamous cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_squamous_cell_carcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_squamous_cell_carcinoma_keratinizing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8071/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0005056"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Squamous cell carcinomas with morphologically prominent production of keratin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "keratinizing squamous cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_squamous_cell_carcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_squamous_cell_carcinoma_non_keratinizing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8072/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nonkeratinizing squamous cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_squamous_cell_carcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_large_cell_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.3 Large cell carcinoma of bronchus or lung"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8012/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0005232"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A malignant epithelial neoplasm composed of large, atypical cells."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "large cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_large_cell_neuroendocrine_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8013/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "large cell neuroendocrine carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_neuroendocrine_tumors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_lymphoepithelioma_like_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8082/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lymphoepithelioma-like carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_minimally_invasive_adenocarcinoma_mucinous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8257/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimally invasive mucinous adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_minimally_invasive_adenocarcinoma_nonmucinous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8256/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimally invasive nonmucinous adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_mixed_invasive_mucinous_and_nonmucinous_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8254/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invasive adenocarcinoma mixed mucinous and nonmucinous"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_invasive_mucinous_adenocarcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_mucoepidermoid_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8430/3"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@language" : "en",
+    "@value" : "MONDO:0003036"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A carcinoma morphologically characterized the presence of cuboidal mucous cells, goblet-like mucous cells, squamoid cells, cystic changes, and a fibrotic stromal formation. It can occur in several anatomic sites, including parotid gland, oral cavity, paranasal sinus, skin, breast, lung, larynx, and lacrimal ducts. It is classified as low or high grade."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mucoepidermoid carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_salivary_gland-type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_non_small_cell_carcinoma_subtype_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "non small cell carcinoma, subtype cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_other_histologic_type_not_listed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The following tumor types should NOT be reported using this protocol:\n1- Mesothelioma (consider the Pleural Mesothelioma protocol)\n2- Lymphoma (consider the Hodgkin or non-Hodgkin Lymphoma protocol)\n3- Sarcoma (consider the Soft Tissue protocol)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "other histologic type not listed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_pleomorphic_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8022/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pleomorphic carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_sarcomatoid_carcinomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_pulmonary_blastoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8972/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pulmonary blastoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_sarcomatoid_carcinomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_small_cell_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icd11" : [ {
+    "@language" : "en",
+    "@value" : "2C25.1 Small cell carcinoma of bronchus or lung"
+  } ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8041/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A highly aggressive subtype of lung carcinoma characterized by the presence of malignant small cells and necrosis. Metastatic disease is usually present at the time of diagnosis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "small cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_neuroendocrine_tumors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_spindle_cell_carcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8032/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "spindle cell carcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_sarcomatoid_carcinomas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_squamous_cell_carcinoma_in_situ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8070/2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "squamous cell carcinoma in situ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#histologic_type_squamous_cell_carcinoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#histologic_type_typical_carcinoid_tumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://id.who.int/icd/entity/1418562110#icdo" : [ {
+    "@language" : "en",
+    "@value" : "8240/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "typical carcinoid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://id.who.int/icd/entity/1418562110#carcinoid_tumors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "laterality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality_left",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "left"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality_not_specified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not specified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality_right",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "right"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#laterality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#lymphovascular_invasionn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lymphovascular invasion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#margins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Individual margin reporting required if any margins are involved or margin involvement cannot be assessed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Surgical margins represent sites that have either been cut or bluntly dissected by the surgeon to resect the specimen. The presence of tumor at a surgical margin is an important finding, because there is the potential for residual tumor remaining in the patient in the area surrounding a positive margin. Peripheral wedge resections contain a parenchymal margin, which is represented by the tissue at the staple line(s). Lobectomy and pneumonectomy specimens contain bronchial and vascular margins and, depending on the completeness of the interlobar fissures and other anatomic factors, may also contain parenchymal margins in the form of staple lines. En bloc resections that contain extrapulmonary structures as part of the specimen have additional margins (eg, parietal pleura, chest wall), which should be designated by the surgeon for appropriate handling. Note that the visceral pleura is not a surgical margin.\nhttps://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "margins"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#pathologic_stage_classification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Reporting of pT, pN, and (when applicable) pM categories is based on information available to the pathologist at the time the report is issued. Only the applicable T, N, or M category is required for reporting; their definitions need not be included in the report. The categories (with modifiers when applicable) can be listed on 1 line or more than 1 line."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pTNM (pathologic stage classification)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "Procedure used to obtain tumor specimen [Type] in Specimen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "procedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_biopsy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/mondo#closeMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://purl.bioontology.org/ontology/LNC/LA3949-0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "\"A biopsy is a medical test commonly performed by a surgeon, interventional radiologist, or an interventional cardiologist involving extraction of sample cells or tissues for examination to determine the presence or extent of a disease.\" https://en.wikipedia.org/wiki/Biopsy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biopsy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Resection is the removal of all of an internal organ or body part, or a key part (lung lobe; liver quadrant) of such an organ or body part that has its own name or code designation. Excision is the cutting out or removal of only part of an organ, tissue, or other body part from the patient. \nhttps://en.wikipedia.org/wiki/Surgery#Types_of_surgery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "resection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#regional_lymph_nodes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "regional lymph nodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_bilobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bilobectomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_completion_lobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "completion lobectomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_lobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lobectomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_major_airway_resection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "major airway resection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_not_specified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not specified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "other"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_pneumonectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pneumonectomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_segmentectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "segmentectomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_sleeve_lobectomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sleeve lobectomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#resection_wedge_resection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/mondo#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://purl.bioontology.org/ontology/LNC/LA25533-3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wedge resection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#procedure_resection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_intermedius_bronchus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "intermedius bronchus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_lobar_bronchus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lobar bronchus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_lower_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lower lobe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_main_bronchus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "main bronchus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_middle_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "middle lobe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_not_specified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not specified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "other"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#site_upper_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "upper lobe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_additional_dimension_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Optional data element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "additional dimension 1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_size"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_cannot_be_determined"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_additional_dimension_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Optional data element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "additional dimension 2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_size"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_cannot_be_determined"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor size cannot be determined."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_size"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_greatest_dimension"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#size_greatest_dimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Greatest measured dimension of tumor (in cm)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "greatest dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_size"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#spread_through_air_spaces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "At the present time, STAS should not be incorporated into the measurement of tumor size."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "STAS is a recently described concept which is defined as micropapillary clusters, solid nests or single cells of tumor extending beyond the edge of the tumor into the air spaces of the surrounding lung parenchyma. Initial studies have shown that the presence of STAS is associated with an increased incidence of recurrence in tumors that have undergone limited resection (eg, segmentectomy, wedge resection).\nhttps://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "spread through air apaces (STAS)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#stas_not_identified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not identified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#spread_through_air_spaces"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#stas_present"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#stas_present",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "present"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#spread_through_air_spaces"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "When more than 1 tumor nodule is identified in resection specimens, it is important to attempt distinction of synchronous primary tumors from a tumor with intrapulmonary metastasis. These scenarios have different prognoses and are staged differently. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tumor focality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_cannot_be_determined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "focality cannot be determined"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_diffuse_pneumonic_type_adenocarcinoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "diffuse pneumonic-type adenocarcinoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "multifocal lung adenocarcinoma with lepidic features"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "intrapulmonary metastases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "separate tumor nodules of same histopathologic type in different lobes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "intrapulmonary metastases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "separate tumor nodules of same histopathologic type in same lobes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_single_tumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "single tumor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_synchronous_primary_tumors_in_different_lobes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Multiple tumor nodules of different histologic types (eg, 1 squamous cell carcinoma, 1 adenocarcinoma) are considered synchronous primaries and should be recorded as such in the pathology report with an individual TNM assigned to each tumor. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "synchronous primary tumors in different lobes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality_synchronous_primary_tumors_in_same_lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Multiple tumor nodules of different histologic types (eg, 1 squamous cell carcinoma, 1 adenocarcinoma) are considered synchronous primaries and should be recorded as such in the pathology report with an individual TNM assigned to each tumor. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "synchronous primary tumors in same lobe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_focality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Select all that apply."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Anatomical location of tumor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tumor site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#tumor_size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Applies to histologic types other than invasive nonmucinous adenocarcinoma with a lepidic component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Measurement of  tumor size (in cm)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tumor size"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#visceral_pleura_invasion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "visceral pleura invasion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/greatnewpathontology#cap_lung_specimen_protocol"
+  } ]
+} ]
