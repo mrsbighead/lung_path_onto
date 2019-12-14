@@ -1,0 +1,2337 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#"
+     xml:base="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mondo="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:mondo1="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung">
+        <terms:description xml:lang="en">Ontology based on the College of American Pathologists&apos; protocol for examination of specimen from patients with primary non-small cell carcinoma, small cell carcinoma or carcinoid tumor of the lung.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title xml:lang="en">ontoPathLung</terms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#closeMatch"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#icd11 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#icd11">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#icdo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#icdo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#loinc -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#loinc">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#has_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#has_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#has_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#has_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_examined"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_involved"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#has_size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#has_size">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#invasive_tumor_size_invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_additional_dimension_1"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_additional_dimension_2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_cannot_be_determined"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_greatest_dimension"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_greatest_dimension"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G1_well_differentiated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G1_well_differentiated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G2_moderately_differentiated"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G3_poorly_differentiated"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G4_undifferentiated"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#GX_cannot_be_assessed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/2023608436</mondo1:exactMatch>
+        <icd11 xml:lang="en">XS56 Grade I</icd11>
+        <rdfs:label xml:lang="en">grade 1: well differentiated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G2_moderately_differentiated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G2_moderately_differentiated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G3_poorly_differentiated"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G4_undifferentiated"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#GX_cannot_be_assessed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/2001687278</mondo1:exactMatch>
+        <icd11 xml:lang="en">XS58 Grade II</icd11>
+        <rdfs:label xml:lang="en">grade 2: moderately differentiated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G3_poorly_differentiated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G3_poorly_differentiated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G4_undifferentiated"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#GX_cannot_be_assessed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/222322191</mondo1:exactMatch>
+        <icd11 xml:lang="en">XS7Z Grade III</icd11>
+        <rdfs:label xml:lang="en">grade 3: poorly differentiated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G4_undifferentiated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G4_undifferentiated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#GX_cannot_be_assessed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/841991559</mondo1:exactMatch>
+        <icd11 xml:lang="en">XS7M Grade IV</icd11>
+        <rdfs:label xml:lang="en">grade 4: undifferentiated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#GX_cannot_be_assessed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#GX_cannot_be_assessed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable"/>
+        <rdfs:label xml:lang="en">grade X: cannot be assessed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_m -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_m">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_TNM_descriptors"/>
+        <rdfs:isDefinedBy xml:lang="en">Multiple primary tumors</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">m (multiple primary tumors)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_r -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_r">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_TNM_descriptors"/>
+        <rdfs:isDefinedBy xml:lang="en">Recurrent</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">r (recurrent)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_TNM_descriptors"/>
+        <rdfs:isDefinedBy xml:lang="en">Post-treatment</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">y (post-treatment)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment>Additional pathologic findings.  Select all that apply.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional pathologic findings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_atypical_adenomatous_hyperplasia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_atypical_adenomatous_hyperplasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/1108670163</mondo1:exactMatch>
+        <icd11 xml:lang="en">XH5QL3 Atypical adenomatous hyperplasia</icd11>
+        <rdfs:label xml:lang="en">atypical adenomatous hyperplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_diffuse_neuroendocrine_hyperplasia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_diffuse_neuroendocrine_hyperplasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0022986</oboInOwl:hasDbXref>
+        <rdfs:isDefinedBy xml:lang="en">A very rare condition characterized by generalized proliferation of pulmonary neuroendocrine cells. It manifests as progressive cough and dyspnea. It is considered a precursor for pulmonary carcinoid tumor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">diffuse neuroendocrine hyperplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_emphysema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_emphysema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/1948124976</mondo1:exactMatch>
+        <oboInOwl:hasDbXref xml:lang="en">ICD10:J43</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0004849</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">emphysema, pulmonary</oboInOwl:hasExactSynonym>
+        <loinc xml:lang="en">45670-7</loinc>
+        <rdfs:isDefinedBy xml:lang="en">Emphysema is defined by abnormal and permanent enlargement of the airspaces that are distal to the terminal bronchioles. This is accompanied by destruction of the airspace walls, without obvious fibrosis (i.e. there is no fibrosis visible to the naked eye). Emphysema can exist in individuals who do not have airflow obstruction; however, it is more common among patients who have moderate or severe airflow obstruction.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emphysema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_inflammation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_inflammation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <mondo1:closeMatch xml:lang="en">CA40.Z Pneumonia, organism unspecified</mondo1:closeMatch>
+        <rdfs:comment xml:lang="en">Specify</rdfs:comment>
+        <rdfs:label xml:lang="en">inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_metaplasia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_metaplasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <rdfs:comment xml:lang="en">Specify</rdfs:comment>
+        <rdfs:label xml:lang="en">metaplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_none_identified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_none_identified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <rdfs:label xml:lang="en">none identified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <rdfs:label xml:lang="en">other additional pathological findings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_squamous_dysplasia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_squamous_dysplasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathologic_findings"/>
+        <rdfs:label xml:lang="en">squamous dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#ancillary_studies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#ancillary_studies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">For reporting cancer biomarker testing results, the CAP Lung Biomarker Template should be used. Pending biomarker studies should be listed in the Comments section of this report.</rdfs:comment>
+        <rdfs:label xml:lang="en">ancillary studies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_cannot_be_assessed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_cannot_be_assessed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_carcinoma_in_situ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_carcinoma_in_situ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">bronchial margin  cannot be assessed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_carcinoma_in_situ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_carcinoma_in_situ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_carcinoma_in_situ"/>
+        <rdfs:label xml:lang="en">bronchial margin involved by carcinoma in situ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_all_margins_uninvolved_by_carcinoma"/>
+        <rdfs:label xml:lang="en">bronchial margin involved by invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_not_applicable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_not_applicable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_carcinoma_in_situ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">bronchial margin not applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_carcinoma_in_situ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_carcinoma_in_situ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin"/>
+        <rdfs:label xml:lang="en">bronchial margin uninvolved by carcinoma in situ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_uninvolved_by_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin"/>
+        <rdfs:label xml:lang="en">bronchial margin uninvolved by invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#carcinoid_tumors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#carcinoid_tumors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_neuroendocrine_tumors"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/1315163160</mondo1:exactMatch>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0006041</oboInOwl:hasDbXref>
+        <icd11 xml:lang="en">2C25.4 Carcinoid or other malignant neuroendocrine neoplasms of bronchus or lung</icd11>
+        <rdfs:isDefinedBy xml:lang="en">A neuroendocrine neoplasm that arises from the lung. It is characterized by the presence of uniform polygonal cells with small or moderate amount of cytoplasm and inconspicuous nucleoli. The cells are usually arranged in organoid and trabecular patterns. It is classified as typical or atypical carcinoid tumor based on the number of mitotic figures and the absence or presence of necrosis. Atypical carcinoid tumors have a worse prognosis.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">carcinoid tumors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#comment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Any relevant comment related to the specimen.</rdfs:comment>
+        <rdfs:label xml:lang="en">comment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Sign-out date</rdfs:comment>
+        <rdfs:label xml:lang="en">date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">direct invasion of adjacent structures, can be macro or microscopically determined</rdfs:comment>
+        <rdfs:label xml:lang="en">direct invasion of adjacent structures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_adjacent_structure_present_and_involved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_adjacent_structure_present_and_involved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_cannot_be_assessed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_no_adjacent_structures_present"/>
+        <rdfs:comment>Specify structures.</rdfs:comment>
+        <rdfs:label xml:lang="en">adjacent structures present and involved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_cannot_be_assessed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_no_adjacent_structures_present"/>
+        <rdfs:label xml:lang="en">adjacent structures present but not involved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_cannot_be_assessed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_cannot_be_assessed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_no_adjacent_structures_present"/>
+        <rdfs:comment>Explain.</rdfs:comment>
+        <rdfs:label xml:lang="en">direct invasion of adjacent structures cannot be assessed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_no_adjacent_structures_present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures_no_adjacent_structures_present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#direct_invasion_of_adjacent_structures"/>
+        <rdfs:label xml:lang="en">no adjacent structures present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extensions"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_not_identified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_present"/>
+        <rdfs:label xml:lang="en">extranodal extension cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_not_identified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_not_identified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extensions"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_present"/>
+        <rdfs:label xml:lang="en">extranodal extension not identified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extension_present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extensions"/>
+        <rdfs:label xml:lang="en">extranodal extension present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extensions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#extranodal_extensions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">extranodal extension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/591767327</mondo1:exactMatch>
+        <rdfs:isDefinedBy xml:lang="en">A tiered grading scheme for lung cancer has been put forth by the AJCC.1 However, its reproducibility and prognostic significance have not been rigorously tested, and therefore histopathologic grade is designated as an optional reporting element. https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">histologic grade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade_not_applicable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_grade"/>
+        <rdfs:label xml:lang="en">not applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:isDefinedBy xml:lang="en">For consistency in reporting, the histologic classification published by the World Health Organization (WHO) for tumors of the lung, including carcinoids, is recommended.8 Although acceptable in small biopsies, a designation of non-small cell lung carcinoma, not otherwise specified (NSCLC, NOS), is not acceptable in resection specimens.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">histologic type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_NUT_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_NUT_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <icdo xml:lang="en">8023/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">Carcinomas associated with chromosomal rearrangement in the NUT gene are called NUT carcinomas. These are poorly differentiated carcinomas genetically defined by the presence of NUT gene rearrangement.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NUT carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/1418562110</mondo1:exactMatch>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0005061</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">non-small cell lung adenocarcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nonsmall cell adenocarcinoma</oboInOwl:hasExactSynonym>
+        <icdo xml:lang="en">8140/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A carcinoma that arises from the lung and is characterized by the presence of malignant glandular epithelial cells. There is a male predilection with a male to female ratio of 2:1. Usually lung adenocarcinoma is asymptomatic and is identified through screening studies or as an incidental radiologic finding. If clinical symptoms are present they include shortness of breath, cough, hemoptysis, chest pain, and fever. Tobacco smoke is a known risk factor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma_in_situ_mucinous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma_in_situ_mucinous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/276010586</mondo1:exactMatch>
+        <icd11 xml:lang="en">XH6BU6 Mucinous adenocarcinoma in situ of the lung</icd11>
+        <icdo xml:lang="en">8253/2</icdo>
+        <rdfs:label xml:lang="en">mucinous adenocarcinoma in situ of the lung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma_in_situ_nonmucinous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma_in_situ_nonmucinous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icd11 xml:lang="en">XH1FR9 Non-mucinous adenocarcinoma in situ of the lung</icd11>
+        <icdo xml:lang="en">8250/2</icdo>
+        <rdfs:label xml:lang="en">adenocarcinoma in situ (AIS) nonmucinous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenoid_cystic_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenoid_cystic_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_salivary_gland-type"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0003181</oboInOwl:hasDbXref>
+        <icd11 xml:lang="en">XH4302 Adenoid cystic carcinoma</icd11>
+        <icdo xml:lang="en">8200/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A rare usually indolent lung carcinoma characterized by a cribiform and tubular pattern and the presence of glandular epithelial cells. Clinical symptoms include shortness of breath, cough, wheeze, hemopytsis and chest pain.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">adenoid cystic carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenosquamous_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenosquamous_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0004973</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8560/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">An aggressive carcinoma with a poor prognosis characterized by a presence of both malignant squamous cells and glandular cells.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">adenosquamous carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_atypical_carcinoid_tumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_atypical_carcinoid_tumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#carcinoid_tumors"/>
+        <icdo xml:lang="en">8249/3</icdo>
+        <rdfs:label xml:lang="en">atypical carcinoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_carcinoma_type_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_carcinoma_type_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <rdfs:label xml:lang="en">carcinoma (type cannot be determined)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_carcinosarcoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_carcinosarcoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas"/>
+        <icdo xml:lang="en">8980/3</icdo>
+        <rdfs:label xml:lang="en">carcinosarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_colloid_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_colloid_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0027772</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8480/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A morphologic variant of lung adenocarcinoma characterized by the presence of mucin pools containing islands of well differentiated adenocarcinoma cells.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">colloid adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_combined_large_cell_neuroendocrine_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_combined_large_cell_neuroendocrine_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_large_cell_neuroendocrine_carcinoma"/>
+        <icdo xml:lang="en">8013/3</icdo>
+        <rdfs:label xml:lang="en">combined large cell neuroendocrine carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_combined_small_cell_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_combined_small_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_small_cell_carcinoma"/>
+        <icdo xml:lang="en">8045/3</icdo>
+        <rdfs:label xml:lang="en">combined small cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_enteric_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_enteric_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8144/3</icdo>
+        <rdfs:label xml:lang="en">enteric adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_epithelial_myoepithelial_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_epithelial_myoepithelial_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_salivary_gland-type"/>
+        <icdo xml:lang="en">8562/3</icdo>
+        <rdfs:label xml:lang="en">epithelial-myoepithelial carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_fetal_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_fetal_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0017292</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8333/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">Well-differentiated fetal adenocarcinoma (WDFA) of the lung is a rare, primary, low-grade, bronchopulmonary neoplasm characterized by a well-circumscribed, usually large, pulmonary mass that is histologically composed of glycogen-rich neoplastic glands and tubules that resemble fetal lungs at 10 to 16 weeks of gestation and benign adjacent stroma. It typically presents with chest pain, cough, dyspnea, hemoptysis and/or generalized, non-specific symptoms, such as night sweats, lethargy, poor appetite and weight loss.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fetal adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_giant_cell_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_giant_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas"/>
+        <icdo xml:lang="en">8031/3</icdo>
+        <rdfs:label xml:lang="en">giant cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_acinar_predominant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_acinar_predominant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0003892</oboInOwl:hasDbXref>
+        <icd11 xml:lang="en">XH0F68 Acinar adenocarcinoma of the lung</icd11>
+        <icdo xml:lang="en">8551/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A morphologic variant of lung adenocarcinoma characterized by the presence of acinar structures composed of columnar or cuboidal cells. (NCI05)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma acinar predominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_lepidic_predominant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_lepidic_predominant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8250/3</icdo>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma lepidic predominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_micropapillary_predominant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_micropapillary_predominant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8265/3</icdo>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma micropapillary predominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_papillary_predominant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_papillary_predominant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0006049</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8260/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A morphologic variant of lung adenocarcinoma characterized by the presence of papillary structures.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma papillary predominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_predominant_subtype_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_predominant_subtype_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma predominant subtype cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_solid_predominant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_adenocarcinoma_solid_predominant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8230/3</icdo>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma solid predominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_mucinous_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_mucinous_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8253/3</icdo>
+        <rdfs:label xml:lang="en">invasive mucinous adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_basaloid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_basaloid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0003486</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8083/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A squamous cell carcinoma characterized by the presence of cells with hyperchromatic nuclei, scant amount of cytoplasm, and peripheral nuclear palisading</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">basaloid squamous cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_keratinizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_keratinizing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0005056</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8071/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">Squamous cell carcinomas with morphologically prominent production of keratin.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">keratinizing squamous cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_non_keratinizing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_non_keratinizing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma"/>
+        <icdo xml:lang="en">8072/3</icdo>
+        <rdfs:label xml:lang="en">nonkeratinizing squamous cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_large_cell_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_large_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0005232</oboInOwl:hasDbXref>
+        <icd11 xml:lang="en">2C25.3 Large cell carcinoma of bronchus or lung</icd11>
+        <icdo xml:lang="en">8012/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A malignant epithelial neoplasm composed of large, atypical cells.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">large cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_large_cell_neuroendocrine_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_large_cell_neuroendocrine_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_neuroendocrine_tumors"/>
+        <icdo xml:lang="en">8013/3</icdo>
+        <rdfs:label xml:lang="en">large cell neuroendocrine carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_lymphoepithelioma_like_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_lymphoepithelioma_like_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <icdo xml:lang="en">8082/3</icdo>
+        <rdfs:label xml:lang="en">lymphoepithelioma-like carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_minimally_invasive_adenocarcinoma_mucinous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_minimally_invasive_adenocarcinoma_mucinous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8257/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">minimally invasive mucinous adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_minimally_invasive_adenocarcinoma_nonmucinous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_minimally_invasive_adenocarcinoma_nonmucinous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma"/>
+        <icdo xml:lang="en">8256/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">minimally invasive nonmucinous adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_mixed_invasive_mucinous_and_nonmucinous_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_mixed_invasive_mucinous_and_nonmucinous_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_mucinous_adenocarcinoma"/>
+        <icdo xml:lang="en">8254/3</icdo>
+        <rdfs:label xml:lang="en">invasive adenocarcinoma mixed mucinous and nonmucinous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_mucoepidermoid_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_mucoepidermoid_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_salivary_gland-type"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0003036</oboInOwl:hasDbXref>
+        <icdo xml:lang="en">8430/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A carcinoma morphologically characterized the presence of cuboidal mucous cells, goblet-like mucous cells, squamoid cells, cystic changes, and a fibrotic stromal formation. It can occur in several anatomic sites, including parotid gland, oral cavity, paranasal sinus, skin, breast, lung, larynx, and lacrimal ducts. It is classified as low or high grade.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">mucoepidermoid carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_neuroendocrine_tumors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_neuroendocrine_tumors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0005454</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">neuroendocrine neoplasm of the lung</oboInOwl:hasExactSynonym>
+        <icd11 xml:lang="en">2C25.4 Carcinoid or other malignant neuroendocrine neoplasms of bronchus or lung</icd11>
+        <rdfs:isDefinedBy xml:lang="en">A low, intermediate, or high grade malignant neoplasm with neuroendocrine differentiation that arises from the lung. This category includes typical carcinoid tumor, atypical carcinoid tumor, small cell carcinoma, large cell neuroendocrine carcinoma, and combined carcinoma.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">neuroendocrine tumors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_non_small_cell_carcinoma_subtype_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_non_small_cell_carcinoma_subtype_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <rdfs:label xml:lang="en">non small cell carcinoma, subtype cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_other_histologic_type_not_listed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_other_histologic_type_not_listed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <rdfs:comment xml:lang="en">The following tumor types should NOT be reported using this protocol:
+1- Mesothelioma (consider the Pleural Mesothelioma protocol)
+2- Lymphoma (consider the Hodgkin or non-Hodgkin Lymphoma protocol)
+3- Sarcoma (consider the Soft Tissue protocol)</rdfs:comment>
+        <rdfs:label xml:lang="en">other histologic type not listed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_pleomorphic_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_pleomorphic_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas"/>
+        <icdo xml:lang="en">8022/3</icdo>
+        <rdfs:label xml:lang="en">pleomorphic carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_pulmonary_blastoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_pulmonary_blastoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas"/>
+        <icdo xml:lang="en">8972/3</icdo>
+        <rdfs:label xml:lang="en">pulmonary blastoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_salivary_gland-type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_salivary_gland-type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <icd11 xml:lang="en">2C25.Y Other specified malignant neoplasms of bronchus or lung</icd11>
+        <rdfs:label xml:lang="en">salivary gland type tumors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <icd11 xml:lang="en">2C25.Y Other specified malignant neoplasms of bronchus or lung</icd11>
+        <rdfs:label xml:lang="en">sarcomatoid carcinomas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_small_cell_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_small_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_neuroendocrine_tumors"/>
+        <icd11 xml:lang="en">2C25.1 Small cell carcinoma of bronchus or lung</icd11>
+        <icdo xml:lang="en">8041/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A highly aggressive subtype of lung carcinoma characterized by the presence of malignant small cells and necrosis. Metastatic disease is usually present at the time of diagnosis.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">small cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_spindle_cell_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_spindle_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_sarcomatoid_carcinomas"/>
+        <icdo xml:lang="en">8032/3</icdo>
+        <rdfs:label xml:lang="en">spindle cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type"/>
+        <mondo1:exactMatch xml:lang="en">http://id.who.int/icd/entity/2045832550</mondo1:exactMatch>
+        <oboInOwl:hasDbXref xml:lang="en">MONDO:0056806</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref xml:lang="en">NCIT:C133254</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">non-small cell lung squamous cell carcinoma</oboInOwl:hasExactSynonym>
+        <icd11 xml:lang="en">2C25.2 Squamous cell carcinoma of bronchus or lung</icd11>
+        <icdo xml:lang="en">8070/3</icdo>
+        <rdfs:isDefinedBy xml:lang="en">A carcinoma arising from malignant squamous bronchial epithelial cells and characterized by the presence of keratinization and/or intercellular bridges. Cigarette smoking and arsenic exposure are strongly associated with squamous cell lung carcinoma.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">squamous cell carcinoma (SqCC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma_in_situ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma_in_situ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_squamous_cell_carcinoma"/>
+        <icdo xml:lang="en">8070/2</icdo>
+        <rdfs:label xml:lang="en">squamous cell carcinoma in situ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_typical_carcinoid_tumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_typical_carcinoid_tumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#carcinoid_tumors"/>
+        <icdo xml:lang="en">8240/3</icdo>
+        <rdfs:label xml:lang="en">typical carcinoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#invasive_tumor_size_invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#invasive_tumor_size_invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Based on data showing prognosis correlates with invasive size in nonmucinous adenocarcinomas with lepidic and invasive components, the American Joint Committee on Cancer (AJCC) has adopted a rule that for nonmucinous adenocarcinomas with a lepidic component, only the size of the invasive component is used to assign T category.1-4 This rule aligns with the recommendation previously set forth by the Union for International Cancer Control (UICC) of using invasive size for T descriptor size.5 This rule does not apply to other histologic types of lung cancer, including invasive mucinous lung adenocarcinoma. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Invasive Tumor Size (applies only to invasive nonmucinous adenocarcinoma with a lepidic component). https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">invasive tumor size (only if invasive nonmucinous adenocarcinoma with a lepidic component)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">laterality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_left -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_left">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_not_specified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_right"/>
+        <rdfs:label xml:lang="en">left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_not_specified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_not_specified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_right"/>
+        <rdfs:label xml:lang="en">not specified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_right -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality_right">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#laterality"/>
+        <rdfs:label xml:lang="en">right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report">
+        <mondo1:exactMatch xml:lang="en">http://purl.bioontology.org/ontology/LNC/60568-3</mondo1:exactMatch>
+        <oboInOwl:hasExactSynonym xml:lang="en">Pathology report final diagnosis Narrative</oboInOwl:hasExactSynonym>
+        <loinc xml:lang="en">60568-3</loinc>
+        <rdfs:isDefinedBy xml:lang="en">The report is &apos;synoptic&apos;, meaning explicitly structured into discrete data concepts rather than narrative text. The present ontology is based on ”Protocol for the Examination of Specimens From Patients With Primary Non-Small Cell Carcinoma, Small Cell Carcinoma, or Carcinoid Tumor ofthe Lung”, version Lung 4.0.0.3. Source: CAP Cancer Protocol Template. https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cap lung specimen protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasionn"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_not_identified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present"/>
+        <rdfs:label xml:lang="en">lymphovascular invasion cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_not_identified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_not_identified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasionn"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present"/>
+        <rdfs:label xml:lang="en">lymphovascular invasion not identified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasionn"/>
+        <rdfs:label xml:lang="en">lymphovascular invasion present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present_arterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present_arterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present"/>
+        <rdfs:label xml:lang="en">arterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present_lymphatic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present_lymphatic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present"/>
+        <rdfs:label xml:lang="en">lymphatic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present_venous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present_venous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasion_present"/>
+        <rdfs:label xml:lang="en">venous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasionn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lymphovascular_invasionn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">lymphovascular invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#macroscopic_description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#macroscopic_description">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Description of all tissue or removed foreign materials received by the surgical pathology laboratory; it also includes vital documentation of the specimen&apos;s handling within the laboratory and the tissue&apos;s disposition.</rdfs:comment>
+        <rdfs:label xml:lang="en">macroscopic description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Individual margin reporting required if any margins are involved or margin involvement cannot be assessed.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Surgical margins represent sites that have either been cut or bluntly dissected by the surgeon to resect the specimen. The presence of tumor at a surgical margin is an important finding, because there is the potential for residual tumor remaining in the patient in the area surrounding a positive margin. Peripheral wedge resections contain a parenchymal margin, which is represented by the tissue at the staple line(s). Lobectomy and pneumonectomy specimens contain bronchial and vascular margins and, depending on the completeness of the interlobar fissures and other anatomic factors, may also contain parenchymal margins in the form of staple lines. En bloc resections that contain extrapulmonary structures as part of the specimen have additional margins (eg, parietal pleura, chest wall), which should be designated by the surgeon for appropriate handling. Note that the visceral pleura is not a surgical margin.
+https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">margins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_all_margins_uninvolved_by_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_all_margins_uninvolved_by_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_involved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_involved_by_carcinoma"/>
+        <rdfs:comment xml:lang="en">Specify margins examined and distance of the tumor to the closest margin.</rdfs:comment>
+        <rdfs:label xml:lang="en">all margins uninvolved by carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_bronchial_margin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins"/>
+        <rdfs:label xml:lang="en">bronchial margin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_other_attached_tissue_margin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_other_attached_tissue_margin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins"/>
+        <rdfs:comment xml:lang="en">other attached tissue margin</rdfs:comment>
+        <rdfs:label xml:lang="en">other</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins"/>
+        <rdfs:label xml:lang="en">parenchimal margin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_vascular_margin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_vascular_margin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins"/>
+        <rdfs:label xml:lang="en">vascular margin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_cannot_be_assessed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_cannot_be_assessed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_other_attached_tissue_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_involved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_uninvolved_by_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">other margin cannot be assessed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_involved_by_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_involved_by_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_other_attached_tissue_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_uninvolved_by_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">other margin involved by invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_uninvolved_by_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#other_attached_tissue_margin_uninvolved_by_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_other_attached_tissue_margin"/>
+        <rdfs:label xml:lang="en">other margin uninvolved by invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_cannot_be_assessed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_cannot_be_assessed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_carcinoma_in_situ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_carcinoma_in_situ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">parenchimal margin cannot be assessed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_carcinoma_in_situ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_carcinoma_in_situ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_carcinoma_in_situ"/>
+        <rdfs:label xml:lang="en">parenchimal margin involved by carcinoma in situ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">parenchimal margin involved by invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">parenchimal margin involved by lepidic component of invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_not_applicable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_not_applicable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_carcinoma_in_situ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_invasive_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma"/>
+        <rdfs:label xml:lang="en">parenchimal margin not applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_carcinoma_in_situ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_carcinoma_in_situ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <rdfs:label xml:lang="en">parenchimal margin uninvolved by carcinoma in situ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <rdfs:label xml:lang="en">parenchimal margin uninvolved by invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_parenchimal_margin"/>
+        <rdfs:label xml:lang="en">parenchimal margin uninvolved by lepidic component of invasive carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Reporting of pT, pN, and (when applicable) pM categories is based on information available to the pathologist at the time the report is issued. Only the applicable T, N, or M category is required for reporting; their definitions need not be included in the report. The categories (with modifiers when applicable) can be listed on 1 line or more than 1 line.</rdfs:comment>
+        <rdfs:label xml:lang="en">pTNM (pathologic stage classification)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_TNM_descriptors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_TNM_descriptors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification"/>
+        <rdfs:comment xml:lang="en">Descriptors</rdfs:comment>
+        <rdfs:label xml:lang="en">descriptors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification"/>
+        <rdfs:comment xml:lang="en">Required only if confirmed pathologically in this case.</rdfs:comment>
+        <rdfs:label xml:lang="en">distant metastasis (pM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX"/>
+        <rdfs:isDefinedBy xml:lang="en">Distant metastasis absent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pM0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX"/>
+        <rdfs:isDefinedBy xml:lang="en">Distant metastasis present.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pM1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM"/>
+        <rdfs:isDefinedBy xml:lang="en">Distant metastasis cannot be assessed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pMX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification"/>
+        <rdfs:label xml:lang="en">regional lymph node (pN)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pNX"/>
+        <rdfs:label xml:lang="en">pN0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pNX"/>
+        <rdfs:isDefinedBy xml:lang="en">Metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes, and intrapulmonary nodes, including involvement by direct extension</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pN1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pNX"/>
+        <rdfs:isDefinedBy xml:lang="en">Metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pN2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pN3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pNX"/>
+        <rdfs:isDefinedBy xml:lang="en">Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node(s)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pN3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pNX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN_pNX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN"/>
+        <rdfs:isDefinedBy xml:lang="en">Regional lymph nodes cannot be assessed</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pNX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification"/>
+        <rdfs:label xml:lang="en">primary tumor (pT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT0"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"/>
+        <rdfs:isDefinedBy xml:lang="en">Tumor ≤3 cm in greatest dimension, surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus (ie, not in the main bronchus)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pT1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"/>
+        <rdfs:isDefinedBy xml:lang="en">No evidence of primary tumor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pT0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"/>
+        <rdfs:isDefinedBy xml:lang="en">Tumor &gt;3 cm but ≤5 cm or having any of the following features:
+    • Involves the main bronchus regardless of distance to the carina, but without involvement of the carina; 
+    • Invades visceral pleura (PL1 or PL2); 
+    • Associated with atelectasis or obstructive pneumonitis that extends to the hilar region, involving part or all of the lung.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pT2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"/>
+        <rdfs:isDefinedBy xml:lang="en">Tumor &gt;5 cm but ≤7 cm in greatest dimension; or directly invading any of the following: parietal pleura (PL3), chest wall (including superior sulcus tumors), phrenic nerve, parietal pericardium; or separate tumor nodule(s) in the same lobe as the primary.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pT3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"/>
+        <rdfs:isDefinedBy xml:lang="en">Tumor &gt;7 cm in greatest dimension; or tumor of any size invading one or more of the following: diaphragm, mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body or carina; or separate tumor nodule(s) in an ipsilateral lobe different from that of the primary.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pT4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"/>
+        <rdfs:isDefinedBy xml:lang="en">Primary tumor cannot be assessed, or tumor proven by presence of malignant cells in sputum or bronchial washings but not visualized by imaging or bronchoscopy</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pTX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT"/>
+        <rdfs:isDefinedBy xml:lang="en">Squamous cell carcinoma in situ (SCIS) or adenocarcinoma in situ (AIS): adenocarcinoma with pure lepidic pattern, ≤3 cm in greatest dimension.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pTis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Procedure used to obtain tumor specimen [Type] in Specimen</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_biopsy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_biopsy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <mondo1:closeMatch xml:lang="en">http://purl.bioontology.org/ontology/LNC/LA3949-0</mondo1:closeMatch>
+        <rdfs:isDefinedBy xml:lang="en">&quot;A biopsy is a medical test commonly performed by a surgeon, interventional radiologist, or an interventional cardiologist involving extraction of sample cells or tissues for examination to determine the presence or extent of a disease.&quot; https://en.wikipedia.org/wiki/Biopsy</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">biopsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure"/>
+        <rdfs:isDefinedBy xml:lang="en">Resection is the removal of all of an internal organ or body part, or a key part (lung lobe; liver quadrant) of such an organ or body part that has its own name or code designation. Excision is the cutting out or removal of only part of an organ, tissue, or other body part from the patient. 
+https://en.wikipedia.org/wiki/Surgery#Types_of_surgery</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">resection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">regional lymph nodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_no_lymph_nodes_submitted_or_found -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_no_lymph_nodes_submitted_or_found">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes"/>
+        <rdfs:label xml:lang="en">no lymph nodes submitted or found</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_examined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_examined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes"/>
+        <rdfs:label xml:lang="en">number of lymphnodes examined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_involved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_involved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes"/>
+        <rdfs:label xml:lang="en">number of lymph nodes involved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_size_greatest_dimension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_size_greatest_dimension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_examined"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_bilobectomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_bilobectomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">bilobectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_completion_lobectomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_completion_lobectomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">completion lobectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_lobectomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_lobectomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">lobectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_major_airway_resection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_major_airway_resection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">major airway resection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_not_specified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_not_specified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">other resection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_pneumonectomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_pneumonectomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">pneumonectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_segmentectomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_segmentectomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">segmentectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_sleeve_lobectomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_sleeve_lobectomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <rdfs:label xml:lang="en">sleeve lobectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_wedge_resection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#resection_wedge_resection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"/>
+        <mondo1:exactMatch xml:lang="en">http://purl.bioontology.org/ontology/LNC/LA25533-3</mondo1:exactMatch>
+        <rdfs:label xml:lang="en">wedge resection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#signout_pathologist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#signout_pathologist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">sign-out pathologist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_intermedius_bronchus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_intermedius_bronchus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lobar_bronchus"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lower_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_main_bronchus"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_middle_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">intermedius bronchus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lobar_bronchus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lobar_bronchus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lower_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_main_bronchus"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_middle_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">lobar bronchus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lower_lobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_lower_lobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_main_bronchus"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_middle_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">lower lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_main_bronchus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_main_bronchus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_middle_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">main bronchus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_middle_lobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_middle_lobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">middle lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_not_specified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">site not specified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe"/>
+        <rdfs:label xml:lang="en">other</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#site_upper_lobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site"/>
+        <rdfs:label xml:lang="en">upper lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_additional_dimension_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_additional_dimension_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_cannot_be_determined"/>
+        <rdfs:comment xml:lang="en">Optional data element.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional dimension 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_additional_dimension_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_additional_dimension_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_cannot_be_determined"/>
+        <rdfs:comment xml:lang="en">Optional data element.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional dimension 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_greatest_dimension"/>
+        <rdfs:isDefinedBy xml:lang="en">Tumor size cannot be determined.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_greatest_dimension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#size_greatest_dimension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size"/>
+        <rdfs:isDefinedBy xml:lang="en">Greatest measured dimension of tumor (in cm).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">greatest dimension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#spread_through_air_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#spread_through_air_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">At the present time, STAS should not be incorporated into the measurement of tumor size.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">STAS is a recently described concept which is defined as micropapillary clusters, solid nests or single cells of tumor extending beyond the edge of the tumor into the air spaces of the surrounding lung parenchyma. Initial studies have shown that the presence of STAS is associated with an increased incidence of recurrence in tumors that have undergone limited resection (eg, segmentectomy, wedge resection).
+https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">spread through air apaces (STAS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#stas_not_identified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#stas_not_identified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#spread_through_air_spaces"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#stas_present"/>
+        <rdfs:label xml:lang="en">STAS not identified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#stas_present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#stas_present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#spread_through_air_spaces"/>
+        <rdfs:label xml:lang="en">STAS present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_greatest_dimension"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2"/>
+        <rdfs:label xml:lang="en">cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_greatest_dimension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_greatest_dimension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"/>
+        <rdfs:isDefinedBy xml:lang="en">Greatest measured dimension of tumor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">greatest measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size"/>
+        <rdfs:comment xml:lang="en">Based on data showing prognosis correlates with invasive size in nonmucinous adenocarcinomas with lepidic and invasive components, the American Joint Committee on Cancer (AJCC) has adopted a rule that for nonmucinous adenocarcinomas with a lepidic component, only the size of the invasive component is used to assign T category.1-4 This rule aligns with the recommendation previously set forth by the Union for International Cancer Control (UICC) of using invasive size for T descriptor size.5 This rule does not apply to other histologic types of lung cancer, including invasive mucinous lung adenocarcinoma. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Total Tumor Size Inclusive of Invasive and Lepidic Components (applies only to invasive nonmucinous adenocarcinoma with a lepidic component). https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">total tumor size (only if invasive nonmucinous adenocarcinoma with a lepidic component)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"/>
+        <rdfs:comment xml:lang="en">Optional data element.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional dimension 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component"/>
+        <rdfs:comment xml:lang="en">Optional data element.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional dimension 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">treatment effect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_greater_than_10_percent_residual_viable_tumor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_no_known_presurgical_therapy"/>
+        <rdfs:label xml:lang="en">treatment effect cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_greater_than_10_percent_residual_viable_tumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_greater_than_10_percent_residual_viable_tumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_no_known_presurgical_therapy"/>
+        <rdfs:label xml:lang="en">greater than 10 percent residual viable tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_no_known_presurgical_therapy"/>
+        <rdfs:label xml:lang="en">less than or equal to 10 percent residual viable tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_no_known_presurgical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect_no_known_presurgical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#treatment_effect"/>
+        <rdfs:label xml:lang="en">no known presurgical therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:isDefinedBy xml:lang="en">When more than 1 tumor nodule is identified in resection specimens, it is important to attempt distinction of synchronous primary tumors from a tumor with intrapulmonary metastasis. These scenarios have different prognoses and are staged differently. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tumor focality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_diffuse_pneumonic_type_adenocarcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_single_tumor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_different_lobes"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_same_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:label xml:lang="en">focality cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_diffuse_pneumonic_type_adenocarcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_diffuse_pneumonic_type_adenocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_single_tumor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_different_lobes"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_same_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:label xml:lang="en">diffuse pneumonic-type adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_single_tumor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_different_lobes"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_same_lobe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:label xml:lang="en">multifocal lung adenocarcinoma with lepidic features</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_single_tumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_single_tumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:label xml:lang="en">single tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_different_lobes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_different_lobes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:isDefinedBy xml:lang="en">Multiple tumor nodules of different histologic types (eg, 1 squamous cell carcinoma, 1 adenocarcinoma) are considered synchronous primaries and should be recorded as such in the pathology report with an individual TNM assigned to each tumor. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">synchronous primary tumors in different lobes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_same_lobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_synchronous_primary_tumors_in_same_lobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:isDefinedBy xml:lang="en">Multiple tumor nodules of different histologic types (eg, 1 squamous cell carcinoma, 1 adenocarcinoma) are considered synchronous primaries and should be recorded as such in the pathology report with an individual TNM assigned to each tumor. https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">synchronous primary tumors in same lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Select all that apply.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Anatomical location of tumor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tumor site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:comment xml:lang="en">Applies to histologic types other than invasive nonmucinous adenocarcinoma with a lepidic component.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Measurement of  tumor size (in cm).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tumor size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_cannot_be_assessed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_cannot_be_assessed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_vascular_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_involved_by_carcinoma"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_uninvolved_by_carcinoma"/>
+        <rdfs:label xml:lang="en">vascular margin cannot be assessed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_involved_by_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_involved_by_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_vascular_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_not_applicable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_uninvolved_by_carcinoma"/>
+        <rdfs:label xml:lang="en">vascular margin involved by carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_not_applicable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_not_applicable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_vascular_margin"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_uninvolved_by_carcinoma"/>
+        <rdfs:label xml:lang="en">vascular margin not applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_uninvolved_by_carcinoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_uninvolved_by_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#margins_vascular_margin"/>
+        <rdfs:label xml:lang="en">vascular margin uninvolved by carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#lung_specimen_synoptic_report"/>
+        <rdfs:label xml:lang="en">visceral pleura invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_cannot_be_determined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_cannot_be_determined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_not_identified"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_present"/>
+        <rdfs:label xml:lang="en">visceral pleura invasion cannot be determined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_not_identified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_not_identified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_present"/>
+        <rdfs:label xml:lang="en">visceral pleura invasion not identified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion_present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#visceral_pleura_invasion"/>
+        <rdfs:label xml:lang="en">visceral pleura invasion present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)"/>
+        <rdfs:comment xml:lang="en">intrapulmonary metastases (separate tumor nodules of same histopathologic type)</rdfs:comment>
+        <rdfs:label xml:lang="en">separate tumor nodules of same histopathologic type in different lobes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality"/>
+        <rdfs:comment xml:lang="en">intrapulmonary metastases (separate tumor nodules of same histopathologic type)</rdfs:comment>
+        <rdfs:label xml:lang="en">separate tumor nodules of same histopathologic type in same lobes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#ct_guided_biopsy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#ct_guided_biopsy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_biopsy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#ultrasound_guided_biopsy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#ultrasound_guided_biopsy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_biopsy"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
