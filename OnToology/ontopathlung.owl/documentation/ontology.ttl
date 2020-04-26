@@ -1008,15 +1008,14 @@ https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"""@en 
 ###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM
 :pathologic_stage_classification_pM rdf:type owl:Class ;
                                     rdfs:subClassOf :pathologic_stage_classification ;
-                                    rdfs:comment "Required only if confirmed pathologically in this case."@en ;
+                                    rdfs:comment "With respect to this protocol, reporting a pM designation (ie, pM1a, pM1b, or pM1c) is required only if metastasis is pathologically confirmed in the specimen(s) being examined. The designation pMX should not be used."@en ;
                                     rdfs:label "distant metastasis (pM)"@en .
 
 
 ###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM0
 :pathologic_stage_classification_pM_pM0 rdf:type owl:Class ;
                                         rdfs:subClassOf :pathologic_stage_classification_pM ;
-                                        owl:disjointWith :pathologic_stage_classification_pM_pM1 ,
-                                                         :pathologic_stage_classification_pM_pMX ;
+                                        owl:disjointWith :pathologic_stage_classification_pM_pM1 ;
                                         rdfs:isDefinedBy "Distant metastasis absent."@en ;
                                         rdfs:label "pM0"@en .
 
@@ -1024,16 +1023,30 @@ https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"""@en 
 ###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1
 :pathologic_stage_classification_pM_pM1 rdf:type owl:Class ;
                                         rdfs:subClassOf :pathologic_stage_classification_pM ;
-                                        owl:disjointWith :pathologic_stage_classification_pM_pMX ;
                                         rdfs:isDefinedBy "Distant metastasis present."@en ;
                                         rdfs:label "pM1"@en .
 
 
-###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX
-:pathologic_stage_classification_pM_pMX rdf:type owl:Class ;
-                                        rdfs:subClassOf :pathologic_stage_classification_pM ;
-                                        rdfs:isDefinedBy "Distant metastasis cannot be assessed."@en ;
-                                        rdfs:label "pMX"@en .
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1a
+:pathologic_stage_classification_pM_pM1a rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pM_pM1 ;
+                                         rdfs:isDefinedBy "Separate tumor nodule(s) in contralateral lobe; tumor with pleural or pericardial nodules or malignant pleural (or pericardial) effusion."@en ;
+                                         rdfs:label "pM1a"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1b
+:pathologic_stage_classification_pM_pM1b rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pM_pM1 ;
+                                         rdfs:isDefinedBy """Single extrathoracic metastasis in a single organ (including involvement of a single nonregional lymph
+node)"""@en ;
+                                         rdfs:label "pM1b"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1c
+:pathologic_stage_classification_pM_pM1c rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pM_pM1 ;
+                                         rdfs:comment "pM1c"@en ;
+                                         rdfs:isDefinedBy "Multiple extrathoracic metastases in single organ or in multiple organs."@en .
 
 
 ###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN
@@ -1105,6 +1118,34 @@ https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"""@en 
                                         rdfs:label "pT1"@en .
 
 
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1a
+:pathologic_stage_classification_pT_PT1a rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pT_PT1 ;
+                                         rdfs:isDefinedBy "Tumor ≤1 cm or less in greatest dimension; A superficial spreading tumor of any size whose invasive component limited to the bronchial wall and may extend proximal to the main bronchus also is classified as T1a, but these tumors are uncommon"@en ;
+                                         rdfs:label "pT1a"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1b
+:pathologic_stage_classification_pT_PT1b rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pT_PT1 ;
+                                         rdfs:isDefinedBy "Tumor >1 cm, but ≤2 cm in greatest dimension"@en ;
+                                         rdfs:label "pT1b"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1c
+:pathologic_stage_classification_pT_PT1c rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pT_PT1 ;
+                                         rdfs:isDefinedBy "Tumor >2 cm but ≤3 cm in greatest dimension"@en ;
+                                         rdfs:label "pT1c"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1mi
+:pathologic_stage_classification_pT_PT1mi rdf:type owl:Class ;
+                                          rdfs:subClassOf :pathologic_stage_classification_pT_PT1 ;
+                                          rdfs:isDefinedBy "Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension."@en ;
+                                          rdfs:label "pT1mi"@en .
+
+
 ###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT0
 :pathologic_stage_classification_pT_pT0 rdf:type owl:Class ;
                                         rdfs:subClassOf :pathologic_stage_classification_pT ;
@@ -1129,6 +1170,18 @@ https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"""@en 
     • Invades visceral pleura (PL1 or PL2); 
     • Associated with atelectasis or obstructive pneumonitis that extends to the hilar region, involving part or all of the lung."""@en ;
                                         rdfs:label "pT2"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2a
+:pathologic_stage_classification_pT_pT2a rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pT_pT2 ;
+                                         rdfs:label "pT2a"@en .
+
+
+###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2b
+:pathologic_stage_classification_pT_pT2b rdf:type owl:Class ;
+                                         rdfs:subClassOf :pathologic_stage_classification_pT_pT2 ;
+                                         rdfs:label "pT2b"@en .
 
 
 ###  http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3
@@ -1659,4 +1712,4 @@ https://documents.cap.org/protocols/cp-thorax-lung-2017-protocol-4003.pdf"""@en 
                                    :procedure_biopsy .
 
 
-###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
