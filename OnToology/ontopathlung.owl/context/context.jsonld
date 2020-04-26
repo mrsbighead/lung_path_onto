@@ -90,6 +90,9 @@
     "histologic_type_large_cell_carcinoma" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_large_cell_carcinoma"
     },
+    "pathologic_stage_classification_pT_PT1a" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1a"
+    },
     "additional_pathological_findings_atypical_adenomatous_hyperplasia" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_atypical_adenomatous_hyperplasia"
     },
@@ -140,9 +143,6 @@
     },
     "procedure_resection" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#procedure_resection"
-    },
-    "pathologic_stage_classification_pM_pMX" : {
-      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX"
     },
     "histologic_type_giant_cell_carcinoma" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_giant_cell_carcinoma"
@@ -372,6 +372,9 @@
     "pathologic_stage_classification_pT_pTX" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"
     },
+    "pathologic_stage_classification_pT_pT2b" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2b"
+    },
     "tumor_focality_diffuse_pneumonic_type_adenocarcinoma" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_diffuse_pneumonic_type_adenocarcinoma"
     },
@@ -383,6 +386,9 @@
     },
     "tumor_size" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_size"
+    },
+    "pathologic_stage_classification_pT_PT1c" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1c"
     },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
@@ -397,6 +403,9 @@
     "additional_pathological_findings_squamous_dysplasia" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#additional_pathological_findings_squamous_dysplasia"
     },
+    "pathologic_stage_classification_pM_pM1b" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1b"
+    },
     "parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma"
     },
@@ -409,11 +418,17 @@
     "vascular_margin_cannot_be_assessed" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#vascular_margin_cannot_be_assessed"
     },
+    "pathologic_stage_classification_pM_pM1a" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1a"
+    },
     "G2_moderately_differentiated" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#G2_moderately_differentiated"
     },
     "regional_lymph_nodes_number_of_lymph_nodes_examined" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#regional_lymph_nodes_number_of_lymph_nodes_examined"
+    },
+    "pathologic_stage_classification_pT_pT2a" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2a"
     },
     "histologic_type_adenocarcinoma_in_situ_nonmucinous" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma_in_situ_nonmucinous"
@@ -528,11 +543,17 @@
     "bronchial_margins_involved_by_carcinoma_in_situ" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#bronchial_margins_involved_by_carcinoma_in_situ"
     },
+    "pathologic_stage_classification_pT_PT1mi" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1mi"
+    },
     "spread_through_air_spaces" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#spread_through_air_spaces"
     },
     "TNM_descriptors_m" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#TNM_descriptors_m"
+    },
+    "pathologic_stage_classification_pM_pM1c" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1c"
     },
     "total_invasive_and_lepidic_size_greatest_dimension" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#total_invasive_and_lepidic_size_greatest_dimension"
@@ -623,6 +644,9 @@
     },
     "histologic_type_adenocarcinoma_in_situ_mucinous" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_adenocarcinoma_in_situ_mucinous"
+    },
+    "pathologic_stage_classification_pT_PT1b" : {
+      "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1b"
     },
     "histologic_type_invasive_squamous_cell_carcinoma_keratinizing" : {
       "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#histologic_type_invasive_squamous_cell_carcinoma_keratinizing"

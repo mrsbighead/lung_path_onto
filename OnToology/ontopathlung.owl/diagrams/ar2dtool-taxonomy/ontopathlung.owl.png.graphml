@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="197" parse.nodes="198" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="205" parse.nodes="206" parse.order="free">
       <node id="nid_mondo:additional_pathological_findings_inflammation">
          <data key="d0">
             <y:ShapeNode>
@@ -668,17 +668,6 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf22" source="nid_mondo:histologic_type_sarcomatoid_carcinomas" target="nid_mondo:histologic_type">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_mondo:pathologic_stage_classification_pN_pN0">
          <data key="d0">
             <y:ShapeNode>
@@ -703,7 +692,53 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf23" source="nid_mondo:pathologic_stage_classification_pN_pN0" target="nid_mondo:pathologic_stage_classification_pN">
+    <edge id="eid_rdfs:subClassOf22" source="nid_mondo:pathologic_stage_classification_pN_pN0" target="nid_mondo:pathologic_stage_classification_pN">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf23" source="nid_mondo:histologic_type_sarcomatoid_carcinomas" target="nid_mondo:histologic_type">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pT_pT2b">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_pT2b</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_mondo:pathologic_stage_classification_pT_pT2">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_pT2</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf24" source="nid_mondo:pathologic_stage_classification_pT_pT2b" target="nid_mondo:pathologic_stage_classification_pT_pT2">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -738,7 +773,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf24" source="nid_mondo:treatment_effect_no_known_presurgical_therapy" target="nid_mondo:treatment_effect">
+    <edge id="eid_rdfs:subClassOf25" source="nid_mondo:treatment_effect_no_known_presurgical_therapy" target="nid_mondo:treatment_effect">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -773,7 +808,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf25" source="nid_mondo:G2_moderately_differentiated" target="nid_mondo:histologic_grade">
+    <edge id="eid_rdfs:subClassOf26" source="nid_mondo:G2_moderately_differentiated" target="nid_mondo:histologic_grade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -796,7 +831,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf26" source="nid_mondo:histologic_type_adenocarcinoma" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf27" source="nid_mondo:histologic_type_adenocarcinoma" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -819,7 +854,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf27" source="nid_mondo:parenchimal_margin_uninvolved_by_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf28" source="nid_mondo:parenchimal_margin_uninvolved_by_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -854,7 +889,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf28" source="nid_mondo:lymphovascular_invasion_present_venous" target="nid_mondo:lymphovascular_invasion_present">
+    <edge id="eid_rdfs:subClassOf29" source="nid_mondo:lymphovascular_invasion_present_venous" target="nid_mondo:lymphovascular_invasion_present">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -877,7 +912,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf29" source="nid_mondo:lymphovascular_invasion_present_lymphatic" target="nid_mondo:lymphovascular_invasion_present">
+    <edge id="eid_rdfs:subClassOf30" source="nid_mondo:lymphovascular_invasion_present_lymphatic" target="nid_mondo:lymphovascular_invasion_present">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -900,7 +935,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf30" source="nid_mondo:histologic_type_pulmonary_blastoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
+    <edge id="eid_rdfs:subClassOf31" source="nid_mondo:histologic_type_pulmonary_blastoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -935,7 +970,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf31" source="nid_mondo:direct_invasion_of_adjacent_structures_adjacent_structure_present_and_involved" target="nid_mondo:direct_invasion_of_adjacent_structures">
+    <edge id="eid_rdfs:subClassOf32" source="nid_mondo:direct_invasion_of_adjacent_structures_adjacent_structure_present_and_involved" target="nid_mondo:direct_invasion_of_adjacent_structures">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -958,7 +993,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf32" source="nid_mondo:site_main_bronchus" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf33" source="nid_mondo:site_main_bronchus" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -981,7 +1016,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf33" source="nid_mondo:bronchial_margins_uninvolved_by_carcinoma_in_situ" target="nid_mondo:margins_bronchial_margin">
+    <edge id="eid_rdfs:subClassOf34" source="nid_mondo:bronchial_margins_uninvolved_by_carcinoma_in_situ" target="nid_mondo:margins_bronchial_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1004,7 +1039,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf34" source="nid_mondo:bronchial_margins_involved_by_carcinoma_in_situ" target="nid_mondo:margins_bronchial_margin">
+    <edge id="eid_rdfs:subClassOf35" source="nid_mondo:bronchial_margins_involved_by_carcinoma_in_situ" target="nid_mondo:margins_bronchial_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1027,7 +1062,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf35" source="nid_mondo:parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf36" source="nid_mondo:parenchimal_margin_involved_by_lepidic_component_of_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1062,7 +1097,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf36" source="nid_mondo:pathologic_stage_classification_pM_pM0" target="nid_mondo:pathologic_stage_classification_pM">
+    <edge id="eid_rdfs:subClassOf37" source="nid_mondo:pathologic_stage_classification_pM_pM0" target="nid_mondo:pathologic_stage_classification_pM">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1085,7 +1120,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf37" source="nid_mondo:site_lower_lobe" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf38" source="nid_mondo:site_lower_lobe" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1108,7 +1143,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf38" source="nid_mondo:additional_pathological_findings_metaplasia" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf39" source="nid_mondo:additional_pathological_findings_metaplasia" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1131,7 +1166,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf39" source="nid_mondo:pathologic_stage_classification_pT_pTX" target="nid_mondo:pathologic_stage_classification_pT">
+    <edge id="eid_rdfs:subClassOf40" source="nid_mondo:pathologic_stage_classification_pT_pTX" target="nid_mondo:pathologic_stage_classification_pT">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1154,7 +1189,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf40" source="nid_mondo:visceral_pleura_invasion_present" target="nid_mondo:visceral_pleura_invasion">
+    <edge id="eid_rdfs:subClassOf41" source="nid_mondo:visceral_pleura_invasion_present" target="nid_mondo:visceral_pleura_invasion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1189,7 +1224,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf41" source="nid_mondo:vascular_margin_cannot_be_assessed" target="nid_mondo:margins_vascular_margin">
+    <edge id="eid_rdfs:subClassOf42" source="nid_mondo:vascular_margin_cannot_be_assessed" target="nid_mondo:margins_vascular_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1224,7 +1259,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf42" source="nid_mondo:other_attached_tissue_margin_involved_by_invasive_carcinoma" target="nid_mondo:margins_other_attached_tissue_margin">
+    <edge id="eid_rdfs:subClassOf43" source="nid_mondo:other_attached_tissue_margin_involved_by_invasive_carcinoma" target="nid_mondo:margins_other_attached_tissue_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1247,7 +1282,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf43" source="nid_mondo:histologic_type_carcinosarcoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
+    <edge id="eid_rdfs:subClassOf44" source="nid_mondo:histologic_type_carcinosarcoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1258,7 +1293,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf44" source="nid_mondo:pathologic_stage_classification_pM" target="nid_mondo:pathologic_stage_classification">
+    <edge id="eid_rdfs:subClassOf45" source="nid_mondo:pathologic_stage_classification_pM" target="nid_mondo:pathologic_stage_classification">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1293,7 +1328,42 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf45" source="nid_mondo:size_additional_dimension_1" target="nid_mondo:tumor_size">
+    <edge id="eid_rdfs:subClassOf46" source="nid_mondo:size_additional_dimension_1" target="nid_mondo:tumor_size">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pM_pM1a">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pM_pM1a</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_mondo:pathologic_stage_classification_pM_pM1">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pM_pM1</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf47" source="nid_mondo:pathologic_stage_classification_pM_pM1a" target="nid_mondo:pathologic_stage_classification_pM_pM1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1316,7 +1386,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf46" source="nid_mondo:other_attached_tissue_margin_uninvolved_by_invasive_carcinoma" target="nid_mondo:margins_other_attached_tissue_margin">
+    <edge id="eid_rdfs:subClassOf48" source="nid_mondo:other_attached_tissue_margin_uninvolved_by_invasive_carcinoma" target="nid_mondo:margins_other_attached_tissue_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1339,7 +1409,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf47" source="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2" target="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
+    <edge id="eid_rdfs:subClassOf49" source="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_2" target="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1362,7 +1432,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf48" source="nid_mondo:histologic_type_fetal_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf50" source="nid_mondo:histologic_type_fetal_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1385,7 +1455,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf49" source="nid_mondo:histologic_type_adenoid_cystic_carcinoma" target="nid_mondo:histologic_type_salivary_gland-type">
+    <edge id="eid_rdfs:subClassOf51" source="nid_mondo:histologic_type_adenoid_cystic_carcinoma" target="nid_mondo:histologic_type_salivary_gland-type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1408,7 +1478,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf50" source="nid_mondo:tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf52" source="nid_mondo:tumor_focality_multifocal_lung_adenocarcinoma_with_lepidic_features" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1431,7 +1501,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf51" source="nid_mondo:total_invasive_and_lepidic_size_greatest_dimension" target="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
+    <edge id="eid_rdfs:subClassOf53" source="nid_mondo:total_invasive_and_lepidic_size_greatest_dimension" target="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1454,7 +1524,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf52" source="nid_mondo:G4_undifferentiated" target="nid_mondo:histologic_grade">
+    <edge id="eid_rdfs:subClassOf54" source="nid_mondo:G4_undifferentiated" target="nid_mondo:histologic_grade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1477,7 +1547,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf53" source="nid_mondo:pathologic_stage_classification_pN_pN3" target="nid_mondo:pathologic_stage_classification_pN">
+    <edge id="eid_rdfs:subClassOf55" source="nid_mondo:pathologic_stage_classification_pN_pN3" target="nid_mondo:pathologic_stage_classification_pN">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1500,7 +1570,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf54" source="nid_mondo:histologic_type_invasive_adenocarcinoma_acinar_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf56" source="nid_mondo:histologic_type_invasive_adenocarcinoma_acinar_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1523,7 +1593,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf55" source="nid_mondo:lymphovascular_invasion_present_arterial" target="nid_mondo:lymphovascular_invasion_present">
+    <edge id="eid_rdfs:subClassOf57" source="nid_mondo:lymphovascular_invasion_present_arterial" target="nid_mondo:lymphovascular_invasion_present">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1546,7 +1616,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf56" source="nid_mondo:histologic_type_minimally_invasive_adenocarcinoma_mucinous" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf58" source="nid_mondo:histologic_type_minimally_invasive_adenocarcinoma_mucinous" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1569,7 +1639,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf57" source="nid_mondo:laterality" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf59" source="nid_mondo:laterality" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1592,7 +1662,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf58" source="nid_mondo:ancillary_studies" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf60" source="nid_mondo:ancillary_studies" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1615,7 +1685,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf59" source="nid_mondo:histologic_type_invasive_adenocarcinoma_predominant_subtype_cannot_be_determined" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf61" source="nid_mondo:histologic_type_invasive_adenocarcinoma_predominant_subtype_cannot_be_determined" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1638,7 +1708,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf60" source="nid_mondo:additional_pathological_findings_other" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf62" source="nid_mondo:additional_pathological_findings_other" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1661,7 +1731,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf61" source="nid_mondo:treatment_effect_greater_than_10_percent_residual_viable_tumor" target="nid_mondo:treatment_effect">
+    <edge id="eid_rdfs:subClassOf63" source="nid_mondo:treatment_effect_greater_than_10_percent_residual_viable_tumor" target="nid_mondo:treatment_effect">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1684,7 +1754,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf62" source="nid_mondo:parenchimal_margin_uninvolved_by_carcinoma_in_situ" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf64" source="nid_mondo:parenchimal_margin_uninvolved_by_carcinoma_in_situ" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1695,7 +1765,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf63" source="nid_mondo:pathologic_stage_classification" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf65" source="nid_mondo:pathologic_stage_classification" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1718,7 +1788,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf64" source="nid_mondo:additional_pathological_findings_none_identified" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf66" source="nid_mondo:additional_pathological_findings_none_identified" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1741,7 +1811,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf65" source="nid_mondo:spread_through_air_spaces" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf67" source="nid_mondo:spread_through_air_spaces" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1776,7 +1846,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf66" source="nid_mondo:margins_all_margins_uninvolved_by_carcinoma" target="nid_mondo:margins">
+    <edge id="eid_rdfs:subClassOf68" source="nid_mondo:margins_all_margins_uninvolved_by_carcinoma" target="nid_mondo:margins">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1799,7 +1869,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf67" source="nid_mondo:lymphovascular_invasion_not_identified" target="nid_mondo:lymphovascular_invasionn">
+    <edge id="eid_rdfs:subClassOf69" source="nid_mondo:lymphovascular_invasion_not_identified" target="nid_mondo:lymphovascular_invasionn">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1822,7 +1892,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf68" source="nid_mondo:treatment_effect_cannot_be_determined" target="nid_mondo:treatment_effect">
+    <edge id="eid_rdfs:subClassOf70" source="nid_mondo:treatment_effect_cannot_be_determined" target="nid_mondo:treatment_effect">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1833,7 +1903,31 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf69" source="nid_mondo:treatment_effect" target="nid_mondo:lung_specimen_synoptic_report">
+      <node id="nid_mondo:pathologic_stage_classification_pT_PT1c">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_PT1c</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_mondo:pathologic_stage_classification_pT_PT1">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_PT1</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf71" source="nid_mondo:pathologic_stage_classification_pT_PT1c" target="nid_mondo:pathologic_stage_classification_pT_PT1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1844,7 +1938,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf70" source="nid_mondo:lymphovascular_invasion_present" target="nid_mondo:lymphovascular_invasionn">
+    <edge id="eid_rdfs:subClassOf72" source="nid_mondo:treatment_effect" target="nid_mondo:lung_specimen_synoptic_report">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf73" source="nid_mondo:lymphovascular_invasion_present" target="nid_mondo:lymphovascular_invasionn">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1867,7 +1972,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf71" source="nid_mondo:parenchimal_margin_involved_by_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf74" source="nid_mondo:parenchimal_margin_involved_by_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1890,7 +1995,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf72" source="nid_mondo:pathologic_stage_classification_pN_pNX" target="nid_mondo:pathologic_stage_classification_pN">
+    <edge id="eid_rdfs:subClassOf75" source="nid_mondo:pathologic_stage_classification_pN_pNX" target="nid_mondo:pathologic_stage_classification_pN">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1925,7 +2030,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf73" source="nid_mondo:histologic_type_mixed_invasive_mucinous_and_nonmucinous_adenocarcinoma" target="nid_mondo:histologic_type_invasive_mucinous_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf76" source="nid_mondo:histologic_type_mixed_invasive_mucinous_and_nonmucinous_adenocarcinoma" target="nid_mondo:histologic_type_invasive_mucinous_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1948,7 +2053,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf74" source="nid_mondo:size_greatest_dimension" target="nid_mondo:tumor_size">
+    <edge id="eid_rdfs:subClassOf77" source="nid_mondo:size_greatest_dimension" target="nid_mondo:tumor_size">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1971,7 +2076,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf75" source="nid_mondo:vascular_margin_involved_by_carcinoma" target="nid_mondo:margins_vascular_margin">
+    <edge id="eid_rdfs:subClassOf78" source="nid_mondo:vascular_margin_involved_by_carcinoma" target="nid_mondo:margins_vascular_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2006,7 +2111,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf76" source="nid_mondo:resection_segmentectomy" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf79" source="nid_mondo:resection_segmentectomy" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2029,7 +2134,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf77" source="nid_mondo:resection_not_specified" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf80" source="nid_mondo:resection_not_specified" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2052,7 +2157,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf78" source="nid_mondo:GX_cannot_be_assessed" target="nid_mondo:histologic_grade">
+    <edge id="eid_rdfs:subClassOf81" source="nid_mondo:GX_cannot_be_assessed" target="nid_mondo:histologic_grade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2075,7 +2180,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf79" source="nid_mondo:G3_poorly_differentiated" target="nid_mondo:histologic_grade">
+    <edge id="eid_rdfs:subClassOf82" source="nid_mondo:G3_poorly_differentiated" target="nid_mondo:histologic_grade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2098,30 +2203,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf80" source="nid_mondo:histologic_type_invasive_adenocarcinoma_solid_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_mondo:pathologic_stage_classification_pM_pMX">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pM_pMX</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf81" source="nid_mondo:pathologic_stage_classification_pM_pMX" target="nid_mondo:pathologic_stage_classification_pM">
+    <edge id="eid_rdfs:subClassOf83" source="nid_mondo:histologic_type_invasive_adenocarcinoma_solid_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2144,7 +2226,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf82" source="nid_mondo:resection_sleeve_lobectomy" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf84" source="nid_mondo:resection_sleeve_lobectomy" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2155,7 +2237,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf83" source="nid_mondo:histologic_grade" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf85" source="nid_mondo:histologic_grade" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2178,7 +2260,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf84" source="nid_mondo:carcinoid_tumors" target="nid_mondo:histologic_type_neuroendocrine_tumors">
+    <edge id="eid_rdfs:subClassOf86" source="nid_mondo:carcinoid_tumors" target="nid_mondo:histologic_type_neuroendocrine_tumors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2201,7 +2283,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf85" source="nid_mondo:histologic_type_large_cell_neuroendocrine_carcinoma" target="nid_mondo:histologic_type_neuroendocrine_tumors">
+    <edge id="eid_rdfs:subClassOf87" source="nid_mondo:histologic_type_large_cell_neuroendocrine_carcinoma" target="nid_mondo:histologic_type_neuroendocrine_tumors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2224,7 +2306,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf86" source="nid_mondo:histologic_type_squamous_cell_carcinoma_in_situ" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
+    <edge id="eid_rdfs:subClassOf88" source="nid_mondo:histologic_type_squamous_cell_carcinoma_in_situ" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2247,7 +2329,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf87" source="nid_mondo:histologic_type_invasive_adenocarcinoma_lepidic_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf89" source="nid_mondo:histologic_type_invasive_adenocarcinoma_lepidic_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2270,7 +2352,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf88" source="nid_mondo:laterality_right" target="nid_mondo:laterality">
+    <edge id="eid_rdfs:subClassOf90" source="nid_mondo:laterality_right" target="nid_mondo:laterality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2293,7 +2375,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf89" source="nid_mondo:bronchial_margins_cannot_be_assessed" target="nid_mondo:margins_bronchial_margin">
+    <edge id="eid_rdfs:subClassOf91" source="nid_mondo:bronchial_margins_cannot_be_assessed" target="nid_mondo:margins_bronchial_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2316,7 +2398,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf90" source="nid_mondo:site_lobar_bronchus" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf92" source="nid_mondo:site_lobar_bronchus" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2339,7 +2421,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf91" source="nid_mondo:pathologic_stage_classification_pT_pT4" target="nid_mondo:pathologic_stage_classification_pT">
+    <edge id="eid_rdfs:subClassOf93" source="nid_mondo:pathologic_stage_classification_pT_pT4" target="nid_mondo:pathologic_stage_classification_pT">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2362,7 +2444,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf92" source="nid_mondo:site_not_specified" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf94" source="nid_mondo:site_not_specified" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2385,7 +2467,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf93" source="nid_mondo:histologic_type_minimally_invasive_adenocarcinoma_nonmucinous" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf95" source="nid_mondo:histologic_type_minimally_invasive_adenocarcinoma_nonmucinous" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2396,7 +2478,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf94" source="nid_mondo:direct_invasion_of_adjacent_structures" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf96" source="nid_mondo:direct_invasion_of_adjacent_structures" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2419,7 +2501,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf95" source="nid_mondo:histologic_type_giant_cell_carcinoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
+    <edge id="eid_rdfs:subClassOf97" source="nid_mondo:histologic_type_giant_cell_carcinoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2442,7 +2524,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf96" source="nid_mondo:direct_invasion_of_adjacent_structures_cannot_be_assessed" target="nid_mondo:direct_invasion_of_adjacent_structures">
+    <edge id="eid_rdfs:subClassOf98" source="nid_mondo:direct_invasion_of_adjacent_structures_cannot_be_assessed" target="nid_mondo:direct_invasion_of_adjacent_structures">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2465,7 +2547,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf97" source="nid_mondo:site_middle_lobe" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf99" source="nid_mondo:site_middle_lobe" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2488,7 +2570,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf98" source="nid_mondo:pathologic_stage_classification_pN_pN1" target="nid_mondo:pathologic_stage_classification_pN">
+    <edge id="eid_rdfs:subClassOf100" source="nid_mondo:pathologic_stage_classification_pN_pN1" target="nid_mondo:pathologic_stage_classification_pN">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2511,7 +2593,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf99" source="nid_mondo:tumor_focality_cannot_be_determined" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf101" source="nid_mondo:tumor_focality_cannot_be_determined" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2534,7 +2616,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf100" source="nid_mondo:histologic_type_combined_large_cell_neuroendocrine_carcinoma" target="nid_mondo:histologic_type_large_cell_neuroendocrine_carcinoma">
+    <edge id="eid_rdfs:subClassOf102" source="nid_mondo:histologic_type_combined_large_cell_neuroendocrine_carcinoma" target="nid_mondo:histologic_type_large_cell_neuroendocrine_carcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2557,7 +2639,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf101" source="nid_mondo:stas_not_identified" target="nid_mondo:spread_through_air_spaces">
+    <edge id="eid_rdfs:subClassOf103" source="nid_mondo:stas_not_identified" target="nid_mondo:spread_through_air_spaces">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2580,7 +2662,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf102" source="nid_mondo:TNM_descriptors_y" target="nid_mondo:pathologic_stage_classification_TNM_descriptors">
+    <edge id="eid_rdfs:subClassOf104" source="nid_mondo:TNM_descriptors_y" target="nid_mondo:pathologic_stage_classification_TNM_descriptors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2603,7 +2685,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf103" source="nid_http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf105" source="nid_http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_same_lobe_(intrapulmonary_metastases)" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2626,7 +2708,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf104" source="nid_mondo:site_other" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf106" source="nid_mondo:site_other" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2637,7 +2719,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf105" source="nid_mondo:margins" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf107" source="nid_mondo:margins" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2660,7 +2742,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf106" source="nid_mondo:procedure_resection" target="nid_mondo:procedure">
+    <edge id="eid_rdfs:subClassOf108" source="nid_mondo:procedure_resection" target="nid_mondo:procedure">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2671,19 +2753,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_mondo:pathologic_stage_classification_pM_pM1">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pM_pM1</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf107" source="nid_mondo:pathologic_stage_classification_pM_pM1" target="nid_mondo:pathologic_stage_classification_pM">
+    <edge id="eid_rdfs:subClassOf109" source="nid_mondo:pathologic_stage_classification_pM_pM1" target="nid_mondo:pathologic_stage_classification_pM">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2694,7 +2764,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf108" source="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf110" source="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2717,7 +2787,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf109" source="nid_mondo:histologic_type_spindle_cell_carcinoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
+    <edge id="eid_rdfs:subClassOf111" source="nid_mondo:histologic_type_spindle_cell_carcinoma" target="nid_mondo:histologic_type_sarcomatoid_carcinomas">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2740,7 +2810,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf110" source="nid_mondo:date" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf112" source="nid_mondo:date" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2763,7 +2833,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf111" source="nid_mondo:extranodal_extension_cannot_be_determined" target="nid_mondo:extranodal_extensions">
+    <edge id="eid_rdfs:subClassOf113" source="nid_mondo:extranodal_extension_cannot_be_determined" target="nid_mondo:extranodal_extensions">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2786,7 +2856,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf112" source="nid_mondo:histologic_type_lymphoepithelioma_like_carcinoma" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf114" source="nid_mondo:histologic_type_lymphoepithelioma_like_carcinoma" target="nid_mondo:histologic_type">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pT_PT1a">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_PT1a</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf115" source="nid_mondo:pathologic_stage_classification_pT_PT1a" target="nid_mondo:pathologic_stage_classification_pT_PT1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2809,7 +2902,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf113" source="nid_mondo:histologic_type_non_small_cell_carcinoma_subtype_cannot_be_determined" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf116" source="nid_mondo:histologic_type_non_small_cell_carcinoma_subtype_cannot_be_determined" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2820,7 +2913,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf114" source="nid_mondo:margins_vascular_margin" target="nid_mondo:margins">
+    <edge id="eid_rdfs:subClassOf117" source="nid_mondo:margins_vascular_margin" target="nid_mondo:margins">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2831,7 +2924,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf115" source="nid_mondo:pathologic_stage_classification_pN" target="nid_mondo:pathologic_stage_classification">
+    <edge id="eid_rdfs:subClassOf118" source="nid_mondo:pathologic_stage_classification_pN" target="nid_mondo:pathologic_stage_classification">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2854,7 +2947,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf116" source="nid_mondo:size_additional_dimension_2" target="nid_mondo:tumor_size">
+    <edge id="eid_rdfs:subClassOf119" source="nid_mondo:size_additional_dimension_2" target="nid_mondo:tumor_size">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pM_pM1b">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pM_pM1b</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf120" source="nid_mondo:pathologic_stage_classification_pM_pM1b" target="nid_mondo:pathologic_stage_classification_pM_pM1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2877,7 +2993,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf117" source="nid_mondo:regional_lymph_nodes" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf121" source="nid_mondo:regional_lymph_nodes" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2900,7 +3016,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf118" source="nid_mondo:macroscopic_description" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf122" source="nid_mondo:macroscopic_description" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2923,7 +3039,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf119" source="nid_mondo:laterality_left" target="nid_mondo:laterality">
+    <edge id="eid_rdfs:subClassOf123" source="nid_mondo:laterality_left" target="nid_mondo:laterality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2946,7 +3062,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf120" source="nid_mondo:histologic_type_invasive_squamous_cell_carcinoma_non_keratinizing" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
+    <edge id="eid_rdfs:subClassOf124" source="nid_mondo:histologic_type_invasive_squamous_cell_carcinoma_non_keratinizing" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2969,7 +3085,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf121" source="nid_mondo:histologic_type_invasive_squamous_cell_carcinoma_basaloid" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
+    <edge id="eid_rdfs:subClassOf125" source="nid_mondo:histologic_type_invasive_squamous_cell_carcinoma_basaloid" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2992,7 +3108,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf122" source="nid_mondo:resection_pneumonectomy" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf126" source="nid_mondo:resection_pneumonectomy" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3003,19 +3119,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_mondo:pathologic_stage_classification_pT_PT1">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_PT1</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf123" source="nid_mondo:pathologic_stage_classification_pT_PT1" target="nid_mondo:pathologic_stage_classification_pT">
+    <edge id="eid_rdfs:subClassOf127" source="nid_mondo:pathologic_stage_classification_pT_PT1" target="nid_mondo:pathologic_stage_classification_pT">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3038,7 +3142,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf124" source="nid_mondo:tumor_focality_synchronous_primary_tumors_in_different_lobes" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf128" source="nid_mondo:tumor_focality_synchronous_primary_tumors_in_different_lobes" target="nid_mondo:tumor_focality">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pT_PT1mi">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="460.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_PT1mi</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf129" source="nid_mondo:pathologic_stage_classification_pT_PT1mi" target="nid_mondo:pathologic_stage_classification_pT_PT1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3061,7 +3188,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf125" source="nid_mondo:histologic_type_colloid_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf130" source="nid_mondo:histologic_type_colloid_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3072,7 +3199,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf126" source="nid_mondo:histologic_type_invasive_mucinous_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf131" source="nid_mondo:histologic_type_invasive_mucinous_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3095,7 +3222,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf127" source="nid_mondo:tumor_focality_diffuse_pneumonic_type_adenocarcinoma" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf132" source="nid_mondo:tumor_focality_diffuse_pneumonic_type_adenocarcinoma" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3106,7 +3233,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf128" source="nid_mondo:histologic_type_salivary_gland-type" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf133" source="nid_mondo:histologic_type_salivary_gland-type" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3129,7 +3256,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf129" source="nid_mondo:parenchimal_margin_cannot_be_assessed" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf134" source="nid_mondo:parenchimal_margin_cannot_be_assessed" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3152,7 +3279,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf130" source="nid_mondo:treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor" target="nid_mondo:treatment_effect">
+    <edge id="eid_rdfs:subClassOf135" source="nid_mondo:treatment_effect_less_than_or_equal_to_10_percent_residual_viable_tumor" target="nid_mondo:treatment_effect">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3175,7 +3302,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf131" source="nid_mondo:comment" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf136" source="nid_mondo:comment" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3198,7 +3325,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf132" source="nid_mondo:other_attached_tissue_margin_cannot_be_assessed" target="nid_mondo:margins_other_attached_tissue_margin">
+    <edge id="eid_rdfs:subClassOf137" source="nid_mondo:other_attached_tissue_margin_cannot_be_assessed" target="nid_mondo:margins_other_attached_tissue_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3221,7 +3348,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf133" source="nid_mondo:resection_lobectomy" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf138" source="nid_mondo:resection_lobectomy" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3244,7 +3371,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf134" source="nid_mondo:bronchial_margins_not_applicable" target="nid_mondo:margins_bronchial_margin">
+    <edge id="eid_rdfs:subClassOf139" source="nid_mondo:bronchial_margins_not_applicable" target="nid_mondo:margins_bronchial_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3255,19 +3382,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_mondo:pathologic_stage_classification_pT_pT2">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_pT2</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf135" source="nid_mondo:pathologic_stage_classification_pT_pT2" target="nid_mondo:pathologic_stage_classification_pT">
+    <edge id="eid_rdfs:subClassOf140" source="nid_mondo:pathologic_stage_classification_pT_pT2" target="nid_mondo:pathologic_stage_classification_pT">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3290,7 +3405,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf136" source="nid_mondo:resection_other" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf141" source="nid_mondo:resection_other" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3313,7 +3428,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf137" source="nid_mondo:vascular_margin_uninvolved_by_carcinoma" target="nid_mondo:margins_vascular_margin">
+    <edge id="eid_rdfs:subClassOf142" source="nid_mondo:vascular_margin_uninvolved_by_carcinoma" target="nid_mondo:margins_vascular_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3336,7 +3451,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf138" source="nid_mondo:procedure_biopsy" target="nid_mondo:procedure">
+    <edge id="eid_rdfs:subClassOf143" source="nid_mondo:procedure_biopsy" target="nid_mondo:procedure">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3359,7 +3474,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf139" source="nid_mondo:site_upper_lobe" target="nid_mondo:tumor_site">
+    <edge id="eid_rdfs:subClassOf144" source="nid_mondo:site_upper_lobe" target="nid_mondo:tumor_site">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3382,7 +3497,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf140" source="nid_mondo:direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved" target="nid_mondo:direct_invasion_of_adjacent_structures">
+    <edge id="eid_rdfs:subClassOf145" source="nid_mondo:direct_invasion_of_adjacent_structures_adjacent_structures_present_but_not_involved" target="nid_mondo:direct_invasion_of_adjacent_structures">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3405,7 +3520,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf141" source="nid_mondo:resection_bilobectomy" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf146" source="nid_mondo:resection_bilobectomy" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3428,7 +3543,30 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf142" source="nid_mondo:direct_invasion_of_adjacent_structures_no_adjacent_structures_present" target="nid_mondo:direct_invasion_of_adjacent_structures">
+    <edge id="eid_rdfs:subClassOf147" source="nid_mondo:direct_invasion_of_adjacent_structures_no_adjacent_structures_present" target="nid_mondo:direct_invasion_of_adjacent_structures">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pT_pT2a">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_pT2a</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf148" source="nid_mondo:pathologic_stage_classification_pT_pT2a" target="nid_mondo:pathologic_stage_classification_pT_pT2">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3451,7 +3589,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf143" source="nid_mondo:additional_pathological_findings_emphysema" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf149" source="nid_mondo:additional_pathological_findings_emphysema" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3474,7 +3612,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf144" source="nid_mondo:parenchimal_margin_involved_by_carcinoma_in_situ" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf150" source="nid_mondo:parenchimal_margin_involved_by_carcinoma_in_situ" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3497,7 +3635,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf145" source="nid_mondo:regional_lymph_nodes_no_lymph_nodes_submitted_or_found" target="nid_mondo:regional_lymph_nodes">
+    <edge id="eid_rdfs:subClassOf151" source="nid_mondo:regional_lymph_nodes_no_lymph_nodes_submitted_or_found" target="nid_mondo:regional_lymph_nodes">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3520,7 +3658,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf146" source="nid_mondo:size_cannot_be_determined" target="nid_mondo:tumor_size">
+    <edge id="eid_rdfs:subClassOf152" source="nid_mondo:size_cannot_be_determined" target="nid_mondo:tumor_size">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3543,7 +3681,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf147" source="nid_mondo:vascular_margin_not_applicable" target="nid_mondo:margins_vascular_margin">
+    <edge id="eid_rdfs:subClassOf153" source="nid_mondo:vascular_margin_not_applicable" target="nid_mondo:margins_vascular_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3566,7 +3704,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf148" source="nid_mondo:histologic_type_invasive_squamous_cell_carcinoma_keratinizing" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
+    <edge id="eid_rdfs:subClassOf154" source="nid_mondo:histologic_type_invasive_squamous_cell_carcinoma_keratinizing" target="nid_mondo:histologic_type_squamous_cell_carcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3589,7 +3727,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf149" source="nid_mondo:histologic_type_adenocarcinoma_in_situ_nonmucinous" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf155" source="nid_mondo:histologic_type_adenocarcinoma_in_situ_nonmucinous" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3612,7 +3750,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf150" source="nid_mondo:histologic_type_atypical_carcinoid_tumor" target="nid_mondo:carcinoid_tumors">
+    <edge id="eid_rdfs:subClassOf156" source="nid_mondo:histologic_type_atypical_carcinoid_tumor" target="nid_mondo:carcinoid_tumors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3635,7 +3773,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf151" source="nid_http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf157" source="nid_http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#tumor_focality_separate_tumor_nodules_of_same_histopathologic_type_in_different_lobes_(intrapulmonary_metastases)" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3646,7 +3784,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf152" source="nid_mondo:visceral_pleura_invasion" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf158" source="nid_mondo:visceral_pleura_invasion" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3657,7 +3795,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf153" source="nid_mondo:margins_bronchial_margin" target="nid_mondo:margins">
+    <edge id="eid_rdfs:subClassOf159" source="nid_mondo:margins_bronchial_margin" target="nid_mondo:margins">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3680,7 +3818,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf154" source="nid_mondo:bronchial_margins_uninvolved_by_invasive_carcinoma" target="nid_mondo:margins_bronchial_margin">
+    <edge id="eid_rdfs:subClassOf160" source="nid_mondo:bronchial_margins_uninvolved_by_invasive_carcinoma" target="nid_mondo:margins_bronchial_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3691,7 +3829,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf155" source="nid_mondo:tumor_size" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf161" source="nid_mondo:tumor_size" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3714,7 +3852,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf156" source="nid_mondo:signout_pathologist" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf162" source="nid_mondo:signout_pathologist" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3725,7 +3863,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf157" source="nid_mondo:margins_parenchimal_margin" target="nid_mondo:margins">
+    <edge id="eid_rdfs:subClassOf163" source="nid_mondo:margins_parenchimal_margin" target="nid_mondo:margins">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3748,7 +3886,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf158" source="nid_mondo:resection_wedge_resection" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf164" source="nid_mondo:resection_wedge_resection" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3771,7 +3909,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf159" source="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1" target="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
+    <edge id="eid_rdfs:subClassOf165" source="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component_additional_dimension_1" target="nid_mondo:total_tumor_size_inclusive_of__invasive_nonmucinous_adenocarcinoma_with_a_lepidic_component">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3794,7 +3932,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf160" source="nid_mondo:laterality_not_specified" target="nid_mondo:laterality">
+    <edge id="eid_rdfs:subClassOf166" source="nid_mondo:laterality_not_specified" target="nid_mondo:laterality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3817,7 +3955,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf161" source="nid_mondo:extranodal_extension_present" target="nid_mondo:extranodal_extensions">
+    <edge id="eid_rdfs:subClassOf167" source="nid_mondo:extranodal_extension_present" target="nid_mondo:extranodal_extensions">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3828,7 +3966,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf162" source="nid_mondo:procedure" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf168" source="nid_mondo:procedure" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3851,7 +3989,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf163" source="nid_mondo:histologic_type_adenosquamous_carcinoma" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf169" source="nid_mondo:histologic_type_adenosquamous_carcinoma" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3874,7 +4012,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf164" source="nid_mondo:TNM_descriptors_r" target="nid_mondo:pathologic_stage_classification_TNM_descriptors">
+    <edge id="eid_rdfs:subClassOf170" source="nid_mondo:TNM_descriptors_r" target="nid_mondo:pathologic_stage_classification_TNM_descriptors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3897,7 +4035,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf165" source="nid_mondo:lymphovascular_invasion_cannot_be_determined" target="nid_mondo:lymphovascular_invasionn">
+    <edge id="eid_rdfs:subClassOf171" source="nid_mondo:lymphovascular_invasion_cannot_be_determined" target="nid_mondo:lymphovascular_invasionn">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3920,7 +4058,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf166" source="nid_mondo:additional_pathological_findings_diffuse_neuroendocrine_hyperplasia" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf172" source="nid_mondo:additional_pathological_findings_diffuse_neuroendocrine_hyperplasia" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3943,7 +4081,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf167" source="nid_mondo:regional_lymph_nodes_number_of_lymph_nodes_involved" target="nid_mondo:regional_lymph_nodes">
+    <edge id="eid_rdfs:subClassOf173" source="nid_mondo:regional_lymph_nodes_number_of_lymph_nodes_involved" target="nid_mondo:regional_lymph_nodes">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3954,7 +4092,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf168" source="nid_mondo:pathologic_stage_classification_pT" target="nid_mondo:pathologic_stage_classification">
+    <edge id="eid_rdfs:subClassOf174" source="nid_mondo:pathologic_stage_classification_pT" target="nid_mondo:pathologic_stage_classification">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3977,7 +4115,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf169" source="nid_mondo:histologic_type_invasive_adenocarcinoma_papillary_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf175" source="nid_mondo:histologic_type_invasive_adenocarcinoma_papillary_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4000,7 +4138,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf170" source="nid_mondo:pathologic_stage_classification_pN_pN2" target="nid_mondo:pathologic_stage_classification_pN">
+    <edge id="eid_rdfs:subClassOf176" source="nid_mondo:pathologic_stage_classification_pN_pN2" target="nid_mondo:pathologic_stage_classification_pN">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4023,7 +4161,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf171" source="nid_mondo:resection_major_airway_resection" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf177" source="nid_mondo:resection_major_airway_resection" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4034,7 +4172,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf172" source="nid_mondo:histologic_type" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf178" source="nid_mondo:histologic_type" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4045,7 +4183,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf173" source="nid_mondo:regional_lymph_nodes_number_of_lymph_nodes_examined" target="nid_mondo:regional_lymph_nodes">
+    <edge id="eid_rdfs:subClassOf179" source="nid_mondo:regional_lymph_nodes_number_of_lymph_nodes_examined" target="nid_mondo:regional_lymph_nodes">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4068,7 +4206,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf174" source="nid_mondo:histologic_type_typical_carcinoid_tumor" target="nid_mondo:carcinoid_tumors">
+    <edge id="eid_rdfs:subClassOf180" source="nid_mondo:histologic_type_typical_carcinoid_tumor" target="nid_mondo:carcinoid_tumors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4091,7 +4229,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf175" source="nid_mondo:histologic_type_other_histologic_type_not_listed" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf181" source="nid_mondo:histologic_type_other_histologic_type_not_listed" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4114,7 +4252,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf176" source="nid_mondo:additional_pathological_findings_squamous_dysplasia" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf182" source="nid_mondo:additional_pathological_findings_squamous_dysplasia" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4137,7 +4275,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf177" source="nid_mondo:histologic_type_adenocarcinoma_in_situ_mucinous" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf183" source="nid_mondo:histologic_type_adenocarcinoma_in_situ_mucinous" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4148,7 +4286,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf178" source="nid_mondo:extranodal_extensions" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf184" source="nid_mondo:extranodal_extensions" target="nid_mondo:lung_specimen_synoptic_report">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4171,7 +4309,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf179" source="nid_mondo:histologic_type_carcinoma_type_cannot_be_determined" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf185" source="nid_mondo:histologic_type_carcinoma_type_cannot_be_determined" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4194,7 +4332,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf180" source="nid_mondo:histologic_type_NUT_carcinoma" target="nid_mondo:histologic_type">
+    <edge id="eid_rdfs:subClassOf186" source="nid_mondo:histologic_type_NUT_carcinoma" target="nid_mondo:histologic_type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4217,7 +4355,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf181" source="nid_mondo:pathologic_stage_classification_pT_pT0" target="nid_mondo:pathologic_stage_classification_pT">
+    <edge id="eid_rdfs:subClassOf187" source="nid_mondo:pathologic_stage_classification_pT_pT0" target="nid_mondo:pathologic_stage_classification_pT">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4240,7 +4378,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf182" source="nid_mondo:tumor_focality_synchronous_primary_tumors_in_same_lobe" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf188" source="nid_mondo:tumor_focality_synchronous_primary_tumors_in_same_lobe" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4263,7 +4401,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf183" source="nid_mondo:parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
+    <edge id="eid_rdfs:subClassOf189" source="nid_mondo:parenchimal_margin_uninvolved_by_lepidic_component_of_invasive_carcinoma" target="nid_mondo:margins_parenchimal_margin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4286,18 +4424,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf184" source="nid_mondo:TNM_descriptors_m" target="nid_mondo:pathologic_stage_classification_TNM_descriptors">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_rdfs:subClassOf185" source="nid_mondo:margins_other_attached_tissue_margin" target="nid_mondo:margins">
+    <edge id="eid_rdfs:subClassOf190" source="nid_mondo:TNM_descriptors_m" target="nid_mondo:pathologic_stage_classification_TNM_descriptors">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4320,7 +4447,41 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf186" source="nid_mondo:stas_present" target="nid_mondo:spread_through_air_spaces">
+    <edge id="eid_rdfs:subClassOf191" source="nid_mondo:stas_present" target="nid_mondo:spread_through_air_spaces">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf192" source="nid_mondo:margins_other_attached_tissue_margin" target="nid_mondo:margins">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pT_PT1b">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pT_PT1b</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf193" source="nid_mondo:pathologic_stage_classification_pT_PT1b" target="nid_mondo:pathologic_stage_classification_pT_PT1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4343,7 +4504,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf187" source="nid_mondo:histologic_type_enteric_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf194" source="nid_mondo:histologic_type_enteric_adenocarcinoma" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4366,7 +4527,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf188" source="nid_mondo:histologic_grade_not_applicable" target="nid_mondo:histologic_grade">
+    <edge id="eid_rdfs:subClassOf195" source="nid_mondo:histologic_grade_not_applicable" target="nid_mondo:histologic_grade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4389,7 +4550,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf189" source="nid_mondo:tumor_focality_single_tumor" target="nid_mondo:tumor_focality">
+    <edge id="eid_rdfs:subClassOf196" source="nid_mondo:tumor_focality_single_tumor" target="nid_mondo:tumor_focality">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4412,7 +4573,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf190" source="nid_mondo:G1_well_differentiated" target="nid_mondo:histologic_grade">
+    <edge id="eid_rdfs:subClassOf197" source="nid_mondo:G1_well_differentiated" target="nid_mondo:histologic_grade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4423,7 +4584,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf191" source="nid_mondo:tumor_site" target="nid_mondo:lung_specimen_synoptic_report">
+    <edge id="eid_rdfs:subClassOf198" source="nid_mondo:tumor_site" target="nid_mondo:lung_specimen_synoptic_report">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_mondo:pathologic_stage_classification_pM_pM1c">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">mondo:pathologic_stage_classification_pM_pM1c</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf199" source="nid_mondo:pathologic_stage_classification_pM_pM1c" target="nid_mondo:pathologic_stage_classification_pM_pM1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4446,7 +4630,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf192" source="nid_mondo:visceral_pleura_invasion_not_identified" target="nid_mondo:visceral_pleura_invasion">
+    <edge id="eid_rdfs:subClassOf200" source="nid_mondo:visceral_pleura_invasion_not_identified" target="nid_mondo:visceral_pleura_invasion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4469,7 +4653,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf193" source="nid_mondo:resection_completion_lobectomy" target="nid_mondo:procedure_resection">
+    <edge id="eid_rdfs:subClassOf201" source="nid_mondo:resection_completion_lobectomy" target="nid_mondo:procedure_resection">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4492,7 +4676,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf194" source="nid_mondo:pathologic_stage_classification_pT_pTis" target="nid_mondo:pathologic_stage_classification_pT">
+    <edge id="eid_rdfs:subClassOf202" source="nid_mondo:pathologic_stage_classification_pT_pTis" target="nid_mondo:pathologic_stage_classification_pT">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4515,7 +4699,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf195" source="nid_mondo:additional_pathological_findings_atypical_adenomatous_hyperplasia" target="nid_mondo:additional_pathologic_findings">
+    <edge id="eid_rdfs:subClassOf203" source="nid_mondo:additional_pathological_findings_atypical_adenomatous_hyperplasia" target="nid_mondo:additional_pathologic_findings">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -4538,7 +4722,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf196" source="nid_mondo:histologic_type_invasive_adenocarcinoma_micropapillary_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
+    <edge id="eid_rdfs:subClassOf204" source="nid_mondo:histologic_type_invasive_adenocarcinoma_micropapillary_predominant" target="nid_mondo:histologic_type_adenocarcinoma">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

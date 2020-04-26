@@ -1987,7 +1987,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Required only if confirmed pathologically in this case."
+    "@value" : "With respect to this protocol, reporting a pM designation (ie, pM1a, pM1b, or pM1c) is required only if metastasis is pathologically confirmed in the specimen(s) being examined. The designation pMX should not be used."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2012,8 +2012,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1"
-  }, {
-    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1",
@@ -2028,23 +2026,48 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pMX",
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1a",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
-    "@value" : "Distant metastasis cannot be assessed."
+    "@value" : "Separate tumor nodule(s) in contralateral lobe; tumor with pleural or pericardial nodules or malignant pleural (or pericardial) effusion."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "pMX"
+    "@value" : "pM1a"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM"
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Single extrathoracic metastasis in a single organ (including involvement of a single nonregional lymph\nnode)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pM1b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "pM1c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Multiple extrathoracic metastases in single organ or in multiple organs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pM_pM1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pN",
@@ -2184,6 +2207,62 @@
     "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor ≤1 cm or less in greatest dimension; A superficial spreading tumor of any size whose invasive component limited to the bronchial wall and may extend proximal to the main bronchus also is classified as T1a, but these tumors are uncommon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT1a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor >1 cm, but ≤2 cm in greatest dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT1b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tumor >2 cm but ≤3 cm in greatest dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT1c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1mi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Minimally invasive adenocarcinoma: adenocarcinoma (≤3 cm in greatest dimension) with a predominantly lepidic pattern and ≤5 mm invasion in greatest dimension."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT1mi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_PT1"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT0",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -2230,6 +2309,26 @@
     "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTX"
   }, {
     "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pTis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT2a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pT2b"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT2"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/camila/ontologies/2018/9/ontoPathLung#pathologic_stage_classification_pT_pT3",
